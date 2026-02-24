@@ -345,7 +345,7 @@ function run_setup {
     Write-Host "`n$ESC[0;33mOptions that require to delete Scheduled Task will always ask for UAC (Admin Access)$ESC[0m"
     Write-Host "1) Yes - Advanced Mode (Requires Admin, completely invisible Scheduled Task)"
     Write-Host "2) Yes - Standard Mode (No Admin, places hidden shortcut in Startup folder)"
-    Write-Host "3) No  - (Do not run at startup, cleans up previous startup tasks)"
+    Write-Host "3) No  - (Do not run at startup, cleans up previous startup choices)"
     $ans = Read-Host "Choice [1-3]"
     
     # Mutually Exclusive Cleanup Logic with Admin Elevation for Task Deletion
@@ -419,7 +419,7 @@ Register-ScheduledTask -Action `$action -Trigger `$trigger -Settings `$settings 
             } catch { Write-Host "$ESC[0;31m[-] Failed to create fallback shortcut.$ESC[0m" }
         }
     } elseif ($global:STARTUP_MODE -eq "2") {
-        Write-Host "`n -> Creating Standard Startup Shortcut..."
+        Write-Host "`n -> Creating Startup Shortcut..."
         try {
             $WshShell = New-Object -comObject WScript.Shell
             $fallbackShortcut = $WshShell.CreateShortcut($startupShortcut)
@@ -428,8 +428,8 @@ Register-ScheduledTask -Action `$action -Trigger `$trigger -Settings `$settings 
             $fallbackShortcut.WindowStyle = 7
             if (Test-Path $ICON_FILE) { $fallbackShortcut.IconLocation = $ICON_FILE }
             $fallbackShortcut.Save()
-            Write-Host "$ESC[0;32m[+] Standard startup shortcut created successfully.$ESC[0m"
-            Write-Log "Standard Startup Shortcut registered." "Information"
+            Write-Host "$ESC[0;32m[+] Startup shortcut created successfully.$ESC[0m"
+            Write-Log "Startup Shortcut registered." "Information"
         } catch { Write-Host "$ESC[0;31m[-] Failed to create startup shortcut.$ESC[0m" }
     } else {
         Write-Host "`n -> Skipping startup registration & ensuring clean state.$ESC[0m"
@@ -796,8 +796,8 @@ while ($true) {
     
     if ($addonBlocks.Count -eq 0) {
         $notifEH = "Download Error"
-        Write-Log "Could not fetch ESO-Hub dynamic data." "Warning"
-        if (!$SILENT) { Write-Host " $ESC[31m[-] Could not fetch ESO-Hub dynamic data.$ESC[0m`n" }
+        Write-Log "Could not fetch ESO-Hub data." "Warning"
+        if (!$SILENT) { Write-Host " $ESC[31m[-] Could not fetch ESO-Hub data.$ESC[0m`n" }
     } else {
         $EH_TIME_DIFF = $CURRENT_TIME - [int]$EH_LAST_DOWNLOAD
         $EH_DOWNLOAD_OCCURRED = $false
