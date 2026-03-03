@@ -1722,6 +1722,9 @@ format_date() {
 apply_db_updates() {
     local updates="$1"
     if [ -n "$updates" ]; then
+        # extract the version header first
+        local header=$(grep "^#DATABASE VERSION" "$DB_FILE" 2>/dev/null)
+        
         echo "$updates" | awk -F'|' -v db="$DB_FILE" '
         BEGIN {
             while ((getline < db) > 0) {
@@ -1743,9 +1746,20 @@ apply_db_updates() {
         END {
             for (k in lines) { print lines[k] }
         }' > "$DB_FILE.tmp"
-        mv "$DB_FILE.tmp" "$DB_FILE"
-        sort -t'|' -k1,1 -k7,7 -k6,6 "$DB_FILE" -o "$DB_FILE" 2>/dev/null
-        log_event "INFO" "Database updated and sorted with new item and guild mappings."
+        
+        # Sort only the raw data inside the temporary file
+        sort -t'|' -k1,1 -k7,7 -k6,6 "$DB_FILE.tmp" -o "$DB_FILE.tmp" 2>/dev/null
+        
+        # Reconstruct the DB with the protected header safely at the top
+        if [ -n "$header" ]; then
+            echo "$header" > "$DB_FILE"
+            cat "$DB_FILE.tmp" >> "$DB_FILE"
+        else
+            mv "$DB_FILE.tmp" "$DB_FILE"
+        fi
+        rm -f "$DB_FILE.tmp" 2>/dev/null
+        
+        log_event "INFO" "Database updated and sorted, preserving version header."
     fi
 }
 
@@ -2004,7 +2018,7 @@ while true; do
         # Fetch database from ESOUI
         DB_API_RESP=$(curl -s -m 30 "https://api.mmoui.com/v3/game/ESO/filedetails/4428.json" 2>/dev/null)
         SRV_DB_VER=$(echo "$DB_API_RESP" | grep -ioE '"(version|uiversion)":"[^"]*"' | head -n 1 | cut -d'"' -f4 | tr -d '\r\n\t ')
-        DB_DL_URL=$(echo "$DB_API_RESP" | grep -ioE '"downloadurl":"[^"]*"' | head -n 1 | cut -d'"' -f4 | sed 's/\\//g' | tr -d '\r\n\t ')
+        DB_DL_URL="https://www.esoui.com/downloads/download4428.zip"
         
         [ -z "$DB_DL_URL" ] && DB_DL_URL="https://cdn.esoui.com/downloads/file4428/"
         [ -z "$SRV_DB_VER" ] && SRV_DB_VER="0.0.0"
