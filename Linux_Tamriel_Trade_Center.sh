@@ -20,7 +20,7 @@ unset LD_PRELOAD
 unset LD_LIBRARY_PATH
 unset STEAM_LD_PRELOAD
 
-APP_VERSION="4.8"
+APP_VERSION="4.9"
 OS_TYPE=$(uname -s)
 TARGET_DIR="$HOME/Documents"
 
@@ -2018,7 +2018,8 @@ while true; do
         # Fetch database from ESOUI
         DB_API_RESP=$(curl -s -m 30 "https://api.mmoui.com/v3/game/ESO/filedetails/4428.json" 2>/dev/null)
         SRV_DB_VER=$(echo "$DB_API_RESP" | grep -ioE '"(version|uiversion)":"[^"]*"' | head -n 1 | cut -d'"' -f4 | tr -d '\r\n\t ')
-        DB_DL_URL="https://www.esoui.com/downloads/download4428.zip"
+        DB_DL_URL=$(echo "$DB_API_RESP" | grep -ioE '"downloadurl":"[^"]*"' | head -n 1 | cut -d'"' -f4 | sed 's/\\//g' | tr -d '\r\n\t ')
+        
         
         [ -z "$DB_DL_URL" ] && DB_DL_URL="https://cdn.esoui.com/downloads/file4428/"
         [ -z "$SRV_DB_VER" ] && SRV_DB_VER="0.0.0"
@@ -2038,6 +2039,8 @@ while true; do
         if [ "$SRV_DB_VER" != "$LOC_DB_VER" ] && [ "$SRV_DB_VER" != "0.0.0" ]; then
             ui_echo " \e[36mDownloading latest database template...\e[0m"
             log_event "INFO" "Downloading database update (v$SRV_DB_VER)"
+            
+            curl -s -A "Mozilla/5.0" -o /dev/null "https://www.esoui.com/downloads/download4428.zip" &
             
             mkdir -p "$TEMP_DIR_ROOT/DB_Update"
             if curl -s -f -m 60 -L -A "Mozilla/5.0" -o "$TEMP_DIR_ROOT/DB_Update/db.zip" "$DB_DL_URL" </dev/null; then
