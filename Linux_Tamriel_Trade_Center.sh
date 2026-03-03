@@ -20,7 +20,7 @@ unset LD_PRELOAD
 unset LD_LIBRARY_PATH
 unset STEAM_LD_PRELOAD
 
-APP_VERSION="4.7"
+APP_VERSION="4.8"
 OS_TYPE=$(uname -s)
 TARGET_DIR="$HOME/Documents"
 
@@ -155,20 +155,6 @@ fi
 
 mkdir -p "$TARGET_DIR"
 CONFIG_FILE="$TARGET_DIR/lttc_updater.conf"
-# Download Database Template
-if [ ! -f "$DB_FILE" ] || [ ! -s "$DB_FILE" ]; then
-    echo -e "\n \e[36m[↓] Downloading database template...\e[0m"
-    
-    curl -s -f -L "https://raw.githubusercontent.com/MPHONlC/Cross-platform-Tamriel-Trade-Center-HarvestMap-ESO-Hub-Auto-Updater/refs/heads/main/LTTC_Database.db" -o "$DB_FILE"
-    
-    if [ $? -eq 0 ]; then
-        echo -e " \e[32m[✓] database successfully downloaded!\e[0m\n"
-        log_event "INFO" "Database template successfully downloaded."
-    else
-        echo -e " \e[31m[!] Failed to download database. An empty one will be built automatically.\e[0m\n"
-        log_event "WARN" "Failed to download database template. Building empty."
-    fi
-fi
 
 touch "$DB_FILE" 2>/dev/null
 touch "$LOG_FILE" 2>/dev/null
@@ -2009,6 +1995,96 @@ while true; do
 
     HAS_TTC=$(check_addon_enabled "TamrielTradeCentre")
     HAS_HM=$(check_addon_enabled "HarvestMap")
+
+    # [0/4] Database Update
+    if [ "$ENABLE_LOCAL_MODE" != true ]; then
+        ui_echo "\e[1m\e[97m [0/4] Synchronizing Local Database \e[0m"
+        ui_echo " \e[33mChecking ESOUI for database updates...\e[0m"
+        
+        # Fetch database from ESOUI
+        DB_API_RESP=$(curl -s -m 30 "https://api.mmoui.com/v3/game/ESO/filedetails/4428.json" 2>/dev/null)
+        SRV_DB_VER=$(echo "$DB_API_RESP" | grep -ioE '"(version|uiversion)":"[^"]*"' | head -n 1 | cut -d'"' -f4 | tr -d '\r\n\t ')
+        DB_DL_URL=$(echo "$DB_API_RESP" | grep -ioE '"downloadurl":"[^"]*"' | head -n 1 | cut -d'"' -f4 | sed 's/\\//g' | tr -d '\r\n\t ')
+        
+        [ -z "$DB_DL_URL" ] && DB_DL_URL="https://cdn.esoui.com/downloads/file4428/"
+        [ -z "$SRV_DB_VER" ] && SRV_DB_VER="0.0.0"
+
+        # Check Local Version
+        LOC_DB_VER="0.0.0"
+        if [ -f "$DB_FILE" ]; then
+            extracted_ver=$(head -n 1 "$DB_FILE" 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -n 1)
+            [ -n "$extracted_ver" ] && LOC_DB_VER="$extracted_ver"
+        fi
+
+        [ "$SRV_DB_VER" = "$LOC_DB_VER" ] && V_COL="\e[92m" || V_COL="\e[31m"
+        
+        ui_echo "\t\e[90mServer_DB_Version= ${V_COL}$SRV_DB_VER\e[0m"
+        ui_echo "\t\e[90mLocal_DB_Version=  ${V_COL}$LOC_DB_VER\e[0m"
+
+        if [ "$SRV_DB_VER" != "$LOC_DB_VER" ] && [ "$SRV_DB_VER" != "0.0.0" ]; then
+            ui_echo " \e[36mDownloading latest database template...\e[0m"
+            log_event "INFO" "Downloading database update (v$SRV_DB_VER)"
+            
+            mkdir -p "$TEMP_DIR_ROOT/DB_Update"
+            if curl -s -f -m 60 -L -A "Mozilla/5.0" -o "$TEMP_DIR_ROOT/DB_Update/db.zip" "$DB_DL_URL" </dev/null; then
+                unzip -q -o "$TEMP_DIR_ROOT/DB_Update/db.zip" -d "$TEMP_DIR_ROOT/DB_Update/" > /dev/null 2>&1
+                
+                NEW_DB=$(find "$TEMP_DIR_ROOT/DB_Update" -name "LTTC_Database.db" | head -n 1)
+                NEW_HIST=$(find "$TEMP_DIR_ROOT/DB_Update" -name "LTTC_History.db" | head -n 1)
+                
+                if [ -n "$NEW_DB" ] && [ -f "$NEW_DB" ]; then
+                    if [ ! -s "$DB_FILE" ]; then
+                        echo "#DATABASE VERSION: $SRV_DB_VER" > "$DB_FILE"
+                        cat "$NEW_DB" >> "$DB_FILE"
+                        ui_echo " \e[92m[+] Database downloaded and installed!\e[0m\n"
+                    else
+                        ui_echo " \e[33mMerging new database entries (Preventing Duplicates)...\e[0m"
+                        # Read Local DB first to preserve data, then add missing Server data.
+                        awk -F'|' '
+                        /^#DATABASE VERSION:/ { next }
+                        {
+                            sub(/\r$/, "")
+                            if ($1 == "GUILD") key = "GUILD_"$2
+                            else if ($1 ~ /^[0-9]+$/) key = "ITEM_"$1
+                            else key = $0
+                            
+                            if (!seen[key]) {
+                                seen[key] = 1
+                                print $0
+                            }
+                        }' "$DB_FILE" "$NEW_DB" > "$DB_FILE.tmp"
+                        
+                        echo "#DATABASE VERSION: $SRV_DB_VER" > "$DB_FILE"
+                        cat "$DB_FILE.tmp" >> "$DB_FILE"
+                        rm -f "$DB_FILE.tmp"
+                        ui_echo " \e[92m[+] Database successfully merged to v$SRV_DB_VER!\e[0m\n"
+                    fi
+                    
+                    if [ -n "$NEW_HIST" ] && [ -f "$NEW_HIST" ]; then
+                        if [ ! -f "$DB_DIR/LTTC_History.db" ]; then
+                            echo "#HISTORY VERSION: $SRV_DB_VER" > "$DB_DIR/LTTC_History.db"
+                            cat "$NEW_HIST" >> "$DB_DIR/LTTC_History.db"
+                        else
+                            # update just the history header without destroying data
+                            sed -i.bak '/^#HISTORY VERSION:/d' "$DB_DIR/LTTC_History.db" 2>/dev/null
+                            sed -i.bak "1i\\#HISTORY VERSION: $SRV_DB_VER" "$DB_DIR/LTTC_History.db" 2>/dev/null
+                            rm -f "$DB_DIR/LTTC_History.db.bak" 2>/dev/null
+                        fi
+                    fi
+                    log_event "INFO" "Database update/merge completed successfully."
+                else
+                    ui_echo " \e[31m[-] LTTC_Database.db not found in the downloaded archive.\e[0m\n"
+                    log_event "ERROR" "Failed to locate DB file inside downloaded archive."
+                fi
+                rm -rf "$TEMP_DIR_ROOT/DB_Update"
+            else
+                ui_echo " \e[31m[-] Database download failed (Timeout or Blocked).\e[0m\n"
+                log_event "ERROR" "Database download failed."
+            fi
+        else
+            ui_echo " \e[90mNo changes detected. \e[92mLocal database is up-to-date. \e[35mSkipping download.\e[0m\n"
+        fi
+    fi
 
     # TTC Data extraction & upload
     if [ "$HAS_TTC" = "false" ]; then
