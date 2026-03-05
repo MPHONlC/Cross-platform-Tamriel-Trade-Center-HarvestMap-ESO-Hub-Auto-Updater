@@ -1,5 +1,5 @@
 Linux/Unix/Windows Tamriel Trade Center: Cross-Platform Auto-Updater for TTC, HarvestMap & ESO-Hub License
-Copyright (c) 2026 @APHONlC
+Copyright (c) 2026 @APHONlC - All Rights Reserved.
 
 All Rights Reserved.
 
