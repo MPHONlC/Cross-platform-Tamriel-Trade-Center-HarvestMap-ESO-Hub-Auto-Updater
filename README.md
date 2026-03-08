@@ -194,7 +194,7 @@ If you use, redistribute, or modify this script in your own project, please use 
 
 ### 🎖️ Credits & Disclaimer
 * **Data Sources:** Tamriel Trade Centre, HarvestMap, and ESO-Hub. This tool is a third-party utility and is not officially affiliated with the addon authors.
-* **Licensing Boundary:** This script is licensed under **Apache 2.0**. This license applies *only* to the script's code and logic. It does not grant any rights to the third-party addons it interacts with, nor does it override the Terms of Service of the data providers (TTC/ESO-Hub/HarvestMap/UESP).
+* **Licensing Boundary:** This script is licensed under **Apache 2.0**. This license applies *only* to the script's code and logic. It does not grant any rights to the third-party addons it interacts with, nor does it override the Terms of Service of the data providers (TTC/ESO-Hub/HarvestMap).
 * **Liability:** Provided "as is." Always back up your **SavedVariables** folder.
 
 **Check out my other addons:**
