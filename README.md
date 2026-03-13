@@ -14,6 +14,13 @@ I originally built this because getting the TTC Client to run flawlessly on Prot
 
 The script automatically finds your game directory, detects your active addons, sets up your Steam Launch options, and runs silently in the background alongside your game.
 
+**Dependencies:**
+This addon requires the following addons to fully function:
+* [Tamriel Trade Centre](https://www.esoui.com/downloads/info1245-TamrielTradeCentre.html)
+* [HarvestMap](https://www.esoui.com/downloads/info57-HarvestMap.html)
+* [HarvestMap-Data](https://www.esoui.com/downloads/info3034-HarvestMap-Data.html)
+* [ESO-Hub Trading](https://www.esoui.com/downloads/info4095-ESO-HubTrading.html)
+
 <a id="tool-title"></a>
 <div align="center">
 
@@ -236,5 +243,13 @@ I designed this script to be safe and clean. It completely isolates its environm
 If you encounter any issues, please submit a report here or at:
 
 **[ESOUI Bug Portal](https://www.esoui.com/portal.php?id=360&a=listbugs)**
+
+<a id="support"></a>
+
+[![SUPPORT](https://img.shields.io/badge/SUPPORT-ff3300?style=for-the-badge)](#support)
+
+If this project has been useful to you, consider supporting its development:<br>
+<br>
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/aph0nlc)
 
 </div>
