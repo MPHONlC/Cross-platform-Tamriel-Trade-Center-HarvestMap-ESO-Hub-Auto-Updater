@@ -2,7 +2,7 @@
 
 # [Tamriel Trade Center, HarvestMap & ESO-Hub Auto-Updater (Linux, macOS, SteamDeck, & Windows)](https://www.esoui.com/downloads/info3249-TamrielTradeCenterHarvestMapampESO-HubAuto-UpdaterLinuxmacOSSteamDeckampWindows.html)
 
-![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows%20%7C%20SteamDeck-blue) ![License](https://img.shields.io/badge/license-Apache%202.0-red) ![Game](https://img.shields.io/badge/Game-ESO-orange)
+![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows%20%7C%20SteamDeck-blue) ![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red) ![Game](https://img.shields.io/badge/Game-ESO-orange)
 
 </div>
 
@@ -13,13 +13,6 @@ Hey everyone! This is an **interactive, cross-platform script** designed to full
 I originally built this because getting the TTC Client to run flawlessly on Proton/Wine/Lutris was a massive headache. I found myself having to run 2 or 3 different background clients just to keep my trading and harvesting data updated. What started as a personal Linux workaround but has now evolved to be completely cross-platform utility for everyone.
 
 The script automatically finds your game directory, detects your active addons, sets up your Steam Launch options, and runs silently in the background alongside your game.
-
-**Dependencies:**
-This addon requires the following addons to fully function:
-* [Tamriel Trade Centre](https://www.esoui.com/downloads/info1245-TamrielTradeCentre.html)
-* [HarvestMap](https://www.esoui.com/downloads/info57-HarvestMap.html)
-* [HarvestMap-Data](https://www.esoui.com/downloads/info3034-HarvestMap-Data.html)
-* [ESO-Hub Trading](https://www.esoui.com/downloads/info4095-ESO-HubTrading.html)
 
 <a id="tool-title"></a>
 <div align="center">
@@ -33,6 +26,8 @@ This addon requires the following addons to fully function:
 * <a id="market-analytics"></a>[![Market Analytics](https://img.shields.io/badge/Market%20Analytics-forestgreen?style=flat-square)](#market-analytics) : Uses an **Outlier-Elimination Math** algorithm to calculate a true "Suggested Price" from your history, filtering out troll listings and low-ballers to give you the real market value.
 * <a id="database-browser"></a>[![Database Browser](https://img.shields.io/badge/Database%20Browser-forestgreen?style=flat-square)](#database-browser) : Builds a 30 day local history of your Sold, Purchased, Listed, Cancelled, and Expired items. Track your **Top Grossing Items** and search your entire trade history directly from the terminal!
 * <a id="map-links"></a>[![ESO-Hub Interactive Map links (with Pings) & UESP Links](https://img.shields.io/badge/ESO--Hub%20Interactive%20Map%20links%20%28with%20Pings%29%20%26%20UESP%20Links-forestgreen?style=flat-square)](#map-links) : Generates exact coordinate **ESO-Hub Map Links** for trader locations, and provides direct **UESP Wiki Links** for Furniture Plans and Motifs so you can see what they look like before you buy or sell them.
+* <a id="targeted-tracking"></a>[![Targeted Username Tracking](https://img.shields.io/badge/Targeted%20Username%20Tracking-forestgreen?style=flat-square)](#targeted-tracking) : Set an exact @Username to filter and view your personal Top Selling and Highest Grossing stats while ignoring global data.
+* <a id="time-filters"></a>[![Time & Source Filters](https://img.shields.io/badge/Time%20%26%20Source%20Filters-forestgreen?style=flat-square)](#time-filters) : Narrow database searches down to the Past 1, 2, or 3 weeks, and explicitly filter by TTC or ESO-Hub data sources.
 * <a id="auto-setup"></a>[![Auto Setup](https://img.shields.io/badge/Auto%20Setup-forestgreen?style=flat-square)](#auto-setup) : Scans your drives to locate game folders and can automatically and carefully inject steam launch options into Steam's `localconfig.vdf`.
 
 ---
@@ -232,21 +227,23 @@ I designed this script to be safe and clean. It completely isolates its environm
 
 <div align="center">
 
-**📂 Check out my other addons:**
-[Auto Lua Memory Cleaner](https://www.esoui.com/downloads/fileinfo.php?id=4388#info) • [Permanent Memento](https://www.esoui.com/downloads/fileinfo.php?id=4116#info)
+**Check out my other addons/projects:**
 
+• [Auto Lua Memory Cleaner](https://www.esoui.com/downloads/fileinfo.php?id=4388#info) 
+• [Permanent Memento](https://www.esoui.com/downloads/fileinfo.php?id=4116#info) 
+• [Tamriel Trade Center, HarvestMap & ESO-Hub Auto-Updater <sub>*(Linux, macOS, SteamDeck, & Windows)*</sub>](https://www.esoui.com/downloads/fileinfo.php?id=3249#info)
+
+If this project has been useful to you, consider supporting its development:<br>
 <br>
-
 [![Buy Me A Coffee](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/aph0nlc)
-<br>
+
 <br>
 <a id="bug-title"></a>
 
 [![BUG REPORTS](https://img.shields.io/badge/BUG%20REPORTS-ff3300?style=for-the-badge)](#bug-title)
 
-If you encounter any issues, please submit a report here or at:
+If you encounter any issues, please submit a report here:
 
-**[ESOUI Bug Portal](https://www.esoui.com/portal.php?id=360&a=listbugs)**
-
+**[ESOUI Bug Portal](https://www.esoui.com/portal.php?id=360&a=listbugs) | [GitHub Issue Tracker](https://github.com/MPHONlC/Cross-platform-Tamriel-Trade-Center-HarvestMap-ESO-Hub-Auto-Updater/issues)**
 
 </div>
