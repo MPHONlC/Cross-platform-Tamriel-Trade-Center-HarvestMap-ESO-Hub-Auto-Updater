@@ -1,0 +1,284 @@
+[SIZE="3"][b][COLOR="#4CAF50"]Changelog[/COLOR][/b][/SIZE]
+
+[b][COLOR="Orange"]Version 2026.09.30.16.04[/COLOR]: [COLOR="Gray"][i](09/30/2026)[/i][/COLOR][/b]
+
+[SIZE="2"][b][COLOR="RoyalBlue"]New Features (All Platforms):[/COLOR][/b][/SIZE]
+[LIST]
+[*] [COLOR="Lime"]Added[/COLOR] [COLOR="Lime"]optional updates[/COLOR] for the other add-ons and libraries in your AddOns folder: setup now asks whether to keep them up to date. When it's on, the updater compares them with ESOUI every 6 hours, installs newer versions and keeps the previous copy in Backups/AddOns for 30 days. Linked folders, HarvestMapData and the ESO-Hub add-ons [COLOR="Gray"][i](which already update from ESO-Hub)[/i][/COLOR] are left alone.
+[*] [COLOR="#1E90FF"]Updated[/COLOR] the last 30 days of trade history from the Auto-Updater Database Template. When a newer template exist, its TTC and ESO-Hub listings and sales are merged into your own history without counting anything twice.
+[*] [COLOR="#00FFFF"]Changed[/COLOR] the database template to CalVer like the updater [COLOR="Gray"][i](for example 2026.09.30.15.59)[/i][/COLOR]. Copies still on 0.0.x update to it.
+[*] [COLOR="#1E90FF"]Updated[/COLOR] uploading to Tamriel Trade Centre.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]some item colors[/COLOR] in the listing log.
+[/LIST]
+
+[SIZE="2"][b][COLOR="RoyalBlue"]Layout:[/COLOR][/b][/SIZE]
+[LIST]
+[*] [COLOR="Lime"]Added[/COLOR] a [COLOR="Lime"]separate macOS script[/COLOR], macOS_Tamriel_Trade_Center.sh. The Linux script is now Linux-only, so a bug on one platform can be fixed without touching the other.
+[*] [COLOR="#00FFFF"]Changed[/COLOR] versioning.
+[/LIST]
+
+[SIZE="2"][b][COLOR="RoyalBlue"]Windows Fixes:[/COLOR][/b][/SIZE]
+[LIST]
+[*] [COLOR="#FF6347"]Fixed[/COLOR] the [COLOR="#FF6347"]known bug where pressing "b"[/COLOR] to browse the database while the updater was looping hid the output and switched the updater from loop mode to run-once.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]ESO-Hub sales picking up item names left over from the TTC step[/COLOR], which could show the wrong name or none at all.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]history records being appended as duplicates[/COLOR] on every scan. Windows now merges them into one line with a scan counter, same as Linux.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] the [COLOR="#FF6347"]30-day history prune deleting the history version header and failing[/COLOR] on short or damaged rows.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] the [COLOR="#FF6347"]database browser reloading the whole config file when you open it[/COLOR]. It only reads your saved [COLOR="#FF69B4"]@Username[/COLOR] now.
+[/LIST]
+
+[SIZE="2"][b][COLOR="RoyalBlue"]macOS Fixes:[/COLOR][/b][/SIZE]
+[LIST]
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]ESO-Hub[/COLOR] on macOS only ever checking and updating the first of EsoTradingHub, EsoHubScanner and [COLOR="#FF69B4"]LibEsoHubPrices[/COLOR].
+[*] [COLOR="#FF6347"]Fixed[/COLOR] the database browser's "[COLOR="#FF69B4"]@Username[/COLOR] only" filter stopping with an error on macOS.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]rerunning setup[/COLOR] on macOS adding a second launch command to Steam's Launch Options, and the script path being quoted in a way that broke Steam's config file.
+[*] [COLOR="#00FFFF"]Changed[/COLOR] the macOS desktop shortcut to a .command file on your Desktop that opens in Terminal.
+[*] [COLOR="#00FFFF"]Changed[/COLOR] macOS to replace an older Linux_Tamriel_Trade_Center.sh in Unix_Tamriel_Trade_Center with the macOS script, so Steam launch options that point at the old name keep working.
+[/LIST]
+
+[SIZE="2"][b][COLOR="RoyalBlue"]Linux, macOS & Steam Deck Fixes:[/COLOR][/b][/SIZE]
+[LIST]
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]hidden runs that Steam didn't start closing after the first update whenever ESO wasn't open[/COLOR], so login autostart stopped almost right away. They now keep their hourly cycle, like on Windows.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] the [COLOR="#FF6347"]updater taking up[/COLOR] to 5 seconds to close after being told to stop while waiting in the background.
+[*] [COLOR="#FF4500"]Removed[/COLOR] the [COLOR="#FF4500"]need[/COLOR] for rsync, and for perl outside the optional Steam launch options step. The script now checks for the tools it does need and names any that are missing.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]setup changing the launch options[/COLOR] of each Steam account twice when ~/.steam/steam and ~/.local/share/Steam are the same folder.
+[/LIST]
+
+[SIZE="2"][b][COLOR="RoyalBlue"]Fixes (All Platforms):[/COLOR][/b][/SIZE]
+[LIST]
+[*] [COLOR="Lime"]Added[/COLOR] a [COLOR="Lime"]log line naming the ESOUI file when an update[/COLOR] of one of your add-ons fails.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]TTC price tables never downloading after the updater installed TamrielTradeCentre[/COLOR] for you [COLOR="Gray"][i](the add-on's version number was saved as the price table version)[/i][/COLOR].
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]issue where "Both[/COLOR] [COLOR="Gray"][i](NA & EU)[/i][/COLOR]" uploading your TTC data to the EU server only. It now uploads to both.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]database updates from ESOUI keeping duplicate trader location rows[/COLOR].
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]TTC entries borrowing the price[/COLOR], amount, sale time or name of the entry before them when a field was missing.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]trader map links[/COLOR] with a broken ping parameter, so the ESO-Hub map opens on the exact trader spot again.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] [COLOR="#FF6347"]rows without a guild showing the trader location[/COLOR] of the row before them.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] the [COLOR="#FF6347"]HarvestMap snapshot being saved even when the download failed[/COLOR], which skipped the retry.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] the [COLOR="#FF6347"]database auto-repair running before the SavedVariables folder was known[/COLOR].
+[*] [COLOR="#FF6347"]Fixed[/COLOR] the [COLOR="#FF6347"]price calculator breaking[/COLOR] on item names with brackets or other special characters.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] the [COLOR="#FF6347"]price calculator listing results[/COLOR] in a different order every run. Results are sorted by item name now.
+[*] [COLOR="#FF6347"]Fixed[/COLOR] the [COLOR="#FF6347"]item database file order depending[/COLOR] on the system language settings.
+[/LIST]
+
+[SIZE="2"][b][COLOR="RoyalBlue"]Windows Additions:[/COLOR][/b][/SIZE]
+[LIST]
+[*] [COLOR="Lime"]Added[/COLOR] the [COLOR="Lime"]Linux download safety net[/COLOR].
+[*] [COLOR="Lime"]Added[/COLOR] [COLOR="#FF69B4"]LibEsoHubPrices[/COLOR] to the missing add-on installer.
+[*] [COLOR="Lime"]Added[/COLOR] the [COLOR="Lime"]--setup[/COLOR], --addon-dir and --desktop options. The desktop shortcut now passes --desktop so the log shows how the updater was started.
+[*] [COLOR="Lime"]Added[/COLOR] the [COLOR="Lime"]log line that records the launch method[/COLOR] [COLOR="Gray"][i](Steam, desktop shortcut, background task or double-click)[/i][/COLOR].
+[*] [COLOR="Lime"]Added[/COLOR] the [COLOR="Lime"]cleanup[/COLOR] for leftover title tags in older database files.
+[*] [COLOR="Lime"]Added[/COLOR] the [COLOR="Lime"]Linux progress spinners[/COLOR] with completion times for parsing, uploads, downloads, pruning and cleanup.
+[*] [COLOR="Lime"]Added[/COLOR] the [COLOR="Lime"]HarvestMap server and local status lines[/COLOR].
+[*] [COLOR="Lime"]Added[/COLOR] [COLOR="Lime"]version detection[/COLOR] on first run for ESO-Hub add-ons you already have, so they don't all show as out of date.
+[*] [COLOR="Lime"]Added[/COLOR] [COLOR="Lime"]skipping the EsoHubScanner upload when the file has no scanned items[/COLOR].
+[*] [COLOR="Lime"]Added[/COLOR] the [COLOR="Lime"]persistent /Cache folder[/COLOR] to the database browser, so Top 10 and price results load instantly until new data arrives.
+[*] [COLOR="Lime"]Added[/COLOR] [COLOR="Lime"]UESP Wiki links[/COLOR] for furniture plans, crafting motifs and style pages in the database browser.
+[*] [COLOR="#00BFFF"]Improved[/COLOR] Top 10 and suggested prices to use the Linux math: scan-weighted prices, outliers trimmed, and at least 5 data points.
+[*] [COLOR="#00BFFF"]Improved[/COLOR] TTC parsing speed. A [COLOR="Orange"]535 KB[/COLOR] TamrielTradeCentre.lua went from about 2.2 to 0.9 seconds in testing.
+[/LIST]
+
+[SIZE="2"][b][COLOR="RoyalBlue"]Linux, macOS & Steam Deck Additions:[/COLOR][/b][/SIZE]
+[LIST]
+[*] [COLOR="Lime"]Added[/COLOR] [COLOR="Lime"]"View / Search Database"[/COLOR] to the database browser: search by name, guild, player or trader town, filter by source, your [COLOR="#FF69B4"]@Username[/COLOR] and time, sort by date, price or name, 50 results per page.
+[*] [COLOR="Lime"]Added[/COLOR] [COLOR="Lime"]"View Previous Extraction History"[/COLOR], which lists what the last scan found with the same search and sorting.
+[*] [COLOR="#00BFFF"]Improved[/COLOR] Top 10 and price calculator sorting speed, about 7 times faster on large histories.
+[/LIST]
+
+[SIZE="2"][b][COLOR="RoyalBlue"]Parity:[/COLOR][/b][/SIZE]
+[LIST]
+[*] [COLOR="#00FFFF"]Changed[/COLOR] both scripts to share the same menus, messages, database format and results. Given the same SavedVariables, Linux, macOS and Windows should now write byte-identical history and database files.
+[/LIST]
+
+[b][COLOR="Orange"]Version 6.0[/COLOR][/b]
+
+[SIZE="2"][b]Windows Updates:[/b][/SIZE]
+[LIST]
+[*]The Offline Database Browser and the Outlier Price Calculator have been ported over [COLOR="Gray"][i](You will need the modern "Windows Terminal" app to use the clickable rich text URLs)[/i][/COLOR].
+[*][b]Folder Organization:[/b] Overhauled the folder structure so all the files are now organized in \Database, \Logs, and \Temp folders to keep the directory clean.
+[*]A huge shoutout to [COLOR="#FF69B4"]@Drakius192[/COLOR] for painstakingly helping me test the Windows version!
+[*][b][COLOR="Red"]Known Bug:[/COLOR][/b] Pressing "b" to browse the database while the script is actively looping causes a bug. Please be aware of this while a fix is being worked on.
+[/LIST]
+
+[SIZE="2"][b]Performance & UI Upgrades [COLOR="Gray"][i](Linux / Steamdeck / macOS)[/i][/COLOR]:[/b][/SIZE]
+[COLOR="Orange"][b]Note:[/b] Some features have been temporarily removed while we investigate a bug affecting those specific functions.[/COLOR]
+[LIST]
+[*][b]Metadata Checks:[/b] I completely ripped out the heavy byte-by-byte file comparisons and replaced them with instant metadata checks.
+[*][b]Live Loading Spinners:[/b] Added live rotating loading spinning animation across the entire script for all uploads, downloads and extractions, with exact completion times.
+[*][b]Persistent Cache:[/b] The database browser now uses a persistent /Cache folder so your heavy math calculations load instantly if you haven't scanned any new data.
+[*][b]Cleanup:[/b] The cleanup now outputs a transparent, targeted list of exactly what temporary files were deleted from your system. [COLOR="Gray"][i](for ease of mind)[/i][/COLOR]
+[/LIST]
+
+[SIZE="2"][b]Logging & Maintenance [COLOR="Gray"][i](Linux / Steamdeck / macOS)[/i][/COLOR]:[/b][/SIZE]
+
+[LIST]
+[*][b]Log OS Identification:[/b] logs now append the specific operating system [COLOR="Gray"][i](Linux / Steamdeck / macOS)[/i][/COLOR] to help identify platform specific issues [COLOR="Gray"][i](applies to both Simple and Detailed logs)[/i][/COLOR].
+[*][b]Log Maintenance:[/b] Implemented a self cleanup cycle that automatically prunes log entries older than 3 days [COLOR="Gray"][i](for both Simple and Detailed modes)[/i][/COLOR] so you don't have to worry logs are taking space.
+[*][b]Session Tracking:[/b] The script now logs exactly how you launched it [COLOR="Gray"][i](Steam, Desktop, or Terminal)[/i][/COLOR] and precisely when it was closed, making it much easier to see why or when it stopped running.
+[*][b]Cleanup Logging:[/b] every deleted file or folder now has a precise timestamp.
+[/LIST]
+
+[SIZE="2"][b]Database & Data Merging [COLOR="Gray"][i](All Platforms)[/i][/COLOR]:[/b][/SIZE]
+[LIST]
+[*][b]Smart Data Merging:[/b] The history database no longer blindly appends duplicate scans that bloat your file size. It now groups identical listings, merges new buyers and sellers onto a single line, and tracks them with a scan counter.
+[*][b]Database Self-Repair:[/b] The database will now automatically strip corrupted data and fix missing colors from older versions.
+[*][b]ESO-Hub Parsing:[/b] The parser no longer ignores "Unknown Items" and will save the sales to automatically backfill the names on future scans.
+[/LIST]
+
+[SIZE="2"][b]New Features [COLOR="Gray"][i](All Platforms)[/i][/COLOR]:[/b][/SIZE]
+[LIST]
+[*][b]Interactive Map Pings:[/b] TTC Kiosk IDs are now perfectly merged with ESO-Hub zone data! When you click a trader location link in the terminal, it will open the ESO-Hub Interactive Map with an exact coordinate ping showing you precisely where they are. Huge thanks to [COLOR="#FF69B4"]@Woeler[/COLOR] for providing the ping info!
+[*][b]UESP Wiki Links:[/b] Added links to the UESP Wiki for Furniture Plans [COLOR="Gray"][i](Blueprints, Praxis, Design, etc.)[/i][/COLOR] and [COLOR="Gray"][i](Crafting Motifs/Style Pages)[/i][/COLOR], so you can view item appearances and details directly from the terminal.
+[*][b]Targeted Username Tracking:[/b] You can now set an exact @Username in the settings to toggle a personal filter, letting you view a targetted Top Selling and Highest Grossing stats while entirely ignoring global data.
+[*][b]Time & Source Filters:[/b] Added new database filters so you can narrow the data down to the Past 1, 2, or 3 weeks, and explicitly filter by TTC or ESO-Hub data sources.
+[/LIST]
+
+[SIZE="2"][b]Fixes & Improvements:[/b][/SIZE]
+[LIST]
+[*]Fixed an issue where personal TTC listings sometimes lacked a seller name [COLOR="Gray"][i](it now injects your @AccountName automatically)[/i][/COLOR].
+[*]Fixed a bug where LibEsoHubPrices.zip could download corrupted if the script was run in Silent mode.
+[*]Fixed TTC uploads failing to trigger if the local data extraction was skipped in Silent mode.
+[*]Updated the Steam Launch Option injector so it carries over your existing steam launch commands without overwriting them.
+[*]Improved process detection for the game client to ensure the script always knows when ESO is running.
+[*]Fixed Linux desktop environment caching so the shortcut icon actually refreshes properly.
+[*]Fixed a typo [COLOR="Gray"][i]("Vive City" -> "Vivec City")[/i][/COLOR] and added several missing trader NPCs and locations. [COLOR="Gray"][i](more I probably have not covered)[/i][/COLOR]
+[*][b]Shortcut Bug:[/b] I've fixed a bug from the setup wizard regarding creation of desktop shortcut to automatically find and wipe any old or duplicate shortcuts, it will now properly create updated desktop shortcuts.
+[*]Added 3rd Option to Update EU & NA Pricetables at the same time. [COLOR="Gray"][i](thanks to [COLOR="#FF69B4"]@Hyborem[/COLOR] for the suggestion)[/i][/COLOR]
+[/LIST]
+
+[SIZE="3"][COLOR="Gray"][i](Map URL now contains precise ping data, e.g., "https://eso-hub.com/en/interactive-map?map=1858&ping=745.346%3B782.579")[/i][/COLOR][/SIZE]
+
+[b][COLOR="Orange"]Version 5.0[/COLOR][/b]
+
+[LIST]
+[*]Small patch for Steamdeck Desktop Mode not showing the terminal. [COLOR="Gray"][i](Thanks to [COLOR="#FF69B4"]@AHB182[/COLOR])[/i][/COLOR]
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 4.9[/COLOR][/b]
+
+[LIST]
+[*]Updated Extraction parser to work in tandem with "TamrielTradeCentre.lua" and "EsoTradingHub.lua" Savedvariables to cross-reference ItemID with their Item Names. [COLOR="Gray"][i](if you have unknown items on ESO-HUB extraction, thats because you need ttc saved variables to display them properly. Template Database provided if you don't use TTC)[/i][/COLOR]
+[*]Updated Kiosk Map Dictionary & Fixed Guild Trader location display, the script will now generate clickable Interactive Map URLs for any trader. [COLOR="Gray"][i](thanks to [COLOR="#FF69B4"]@cyxui[/COLOR] for providing kiosk ID and ESO-HUB for their Interactive map)[/i][/COLOR] [COLOR="Gray"][i](I may or may not have covered all traders, Interactive map pings are being worked on for next update)[/i][/COLOR]
+[*]More Fixes for Steamdeck, force download of "TamrielTradeCentre", "EsoHubScanner" "EsoTradingHub" "LibEsoHubPrices" "HarvestMap" "HarvestMapData" addons if they are missing and properly enable them on "AddOnSettings.txt" [COLOR="Gray"][i](since its hard for steamdeck users to type y/n on terminal this is now forced, they can choose to disable addons in-game. thanks for [COLOR="#FF69B4"]@AHB182[/COLOR] for painstakingly testing this on steamdeck. Linux and MacOS will be prompted if they want to install said missing addons, it wont be forced for them.)[/i][/COLOR]
+[*]Added Folder Organization & Migration, Implemented subfolder structure [COLOR="Gray"][i](/Database, /Logs, /Temp)[/i][/COLOR] with automatic migration for older files on older versions of this script. [COLOR="Gray"][i](Databases still need to be re-created)[/i][/COLOR]
+[*]Updated File Migrations to accommodate recent changes. [COLOR="Gray"][i](needs to re-run setup to update old version)[/i][/COLOR]
+[*]Updated Process Detection
+[*]Updated Variable Assignments
+[*]Updated Relative time mathematical comparison
+[*]Updated Item Quality Color Math Logic [COLOR="Gray"][i](I haven't covered all of them, some items will default to white quality color)[/i][/COLOR]
+[*]Updated Database & History Sorting Logic
+[*]Changed Steamdeck forced to --silent mode regardless of choice on gamemode/gamescope. [COLOR="Gray"][i](script can still be run on desktop mode visibly)[/i][/COLOR]
+[*]Changed Steamdeck notification back to notify-send from zenity
+[*]No new updates for Windows.
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 4.3[/COLOR][/b]
+
+[LIST]
+[*]Added Database & History Browser, track your trade data in LTTC_History.db for 90 days, allowing you to search through past sales and listings.
+[*]Added Price Calculator A new "Suggested Price Calculator" function uses outlier elimination [COLOR="Gray"][i](trimming the top/bottom 10% of data)[/i][/COLOR] to provide more accurate market prices directly in your terminal.
+[*]Added ESO-Hub Secure Login to upload scanned data with your user token, which is then stored in the config file while your user & password is wiped from memory. [COLOR="Gray"][i](you can still upload without logging in)[/i][/COLOR]
+[*]Some fixes to steamdeck [COLOR="Gray"][i](still require more test)[/i][/COLOR]
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 4.1 (Windows)[/COLOR][/b]
+
+[LIST]
+[*]Added ESO-Hub Secure Login to upload scanned data with your user token, which is then stored in the config file while your user & password is wiped from memory.
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 4.0[/COLOR][/b]
+
+[LIST]
+[*]Added & Improved extraction of local sales, listings, and scans on the terminal with clickable URLs [COLOR="Gray"][i](if enabled, kept windows version simple for now as it is not my main OS and I'm limited to testing)[/i][/COLOR].
+[*]Changed where the script installs itself and its configuration files to be moved on your Documents folder instead of the ESO game directory. [COLOR="Gray"][i](not fully tested on macOS)[/i][/COLOR]
+[*]Added API integrations for TTC & ESO-Hub to download the latest data versions and upload your local scans and sales data to their respective servers.
+[*]Added Native OS Notifications [COLOR="Gray"][i](Windows Action Center, Linux notify-send, macOS osascript)[/i][/COLOR] to summarize update statuses. [COLOR="Gray"][i](not fully tested on macOS)[/i][/COLOR]
+[*]Added Logs to track script events and item extractions [COLOR="Gray"][i](if enabled)[/i][/COLOR].
+[*]Added System Tray Icon for "Windows version only" when script is run as hidden in the background, can now be registered as a scheduled task.
+[*]Added a lock to only allow a single instance of the script to run to prevent multiple updaters from running simultaneously.
+[*]Steam localconfig.vdf files are now safely backed up with timestamps before launch options are injected.
+[*]Added Addon Detection to read your AddOnSettings.txt to automatically skip updates for addons you you don't have installed.
+[*]Script will now kill itself if ran via Steam Launch Options and it detects the game is no longer running.
+[*]PriceTable downloads now checks TTC/ESO-Hub API for new versions and compares it to your local version if it matches it will skip the download else downloads the new Data.
+[*]HarvestMap data sync now checks if you have new data before merging with the servers else skips it.
+[*]Changed Data downloads to Daily for TTC and twice a day for ESO-Hub [COLOR="Gray"][i](as long as the data table version is different from your local version the script will Download the new Data)[/i][/COLOR], Data Uploads to every hour [COLOR="Gray"][i](when there is data to be uploaded)[/i][/COLOR].
+[*]Added Disclaimer & Credits ***
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 3[/COLOR][/b]
+
+[LIST]
+[*]Added initial script setup.
+[*]Added automated Steam Launch Options injection functionality for Steam across Linux, macOS, and Windows. [COLOR="Gray"][i](macOS & Windows needs testing)[/i][/COLOR]
+[*]Added macOS support [COLOR="Gray"][i](needs testing)[/i][/COLOR]
+[*]Added directory self check that automatically forces setup to run if the script or config files are missing from the game folder.
+[*]Added Harvest Map Data Uploader & Downloader
+[*]Added ESO-Hub weekly Price Data Downloader [COLOR="Gray"][i](tracks and skips if data has been downloaded this week)[/i][/COLOR]
+[*]Changed TTC Price Data Download Timer to 1 hour download cooldown, it will now strictly record the timestamp of the last attempt regardless of success or failure to prevent server spam. [COLOR="Gray"][i](now tracks and skip if data has been downloaded recently 1 hour cd)[/i][/COLOR]
+[*]Updated Default Addon directory locations
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 2.3[/COLOR]: [COLOR="Gray"][i](05/20/2025)[/i][/COLOR][/b]
+
+[LIST]
+[*]Added Desktop Shortcuts [COLOR="Gray"][i](credits to mccalli)[/i][/COLOR]
+[*]No other Changes
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 2.3[/COLOR]: [COLOR="Gray"][i](07/26/2023)[/i][/COLOR][/b]
+
+[LIST]
+[*]Update
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 2.2[/COLOR]: [COLOR="Gray"][i](03/01/2023)[/i][/COLOR][/b]
+
+[LIST]
+[*]Added Windows Version by dbojan. [COLOR="Gray"][i](if you are having problems running TTC.exe on Windows due to outdated .net)[/i][/COLOR]
+[*]It uses tar from relatively newer version of windows 10.
+[*]Slightly modified the original code by dbojan, and created 3 versions. [COLOR="Gray"][i](5-mins-looping-scripts, Looping-with-user-Input, Single-use-scripts.)[/i][/COLOR]
+[*]Included the original code by dbojan.
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 2.2[/COLOR]: [COLOR="Gray"][i](03/01/2023)[/i][/COLOR][/b]
+
+[LIST]
+[*]Added EU counterpart. [COLOR="Gray"][i](should work as the NA versions let me know if there are problems.)[/i][/COLOR]
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 2.1[/COLOR]: [COLOR="Gray"][i](08/15/2022)[/i][/COLOR][/b]
+
+[LIST]
+[*]Update
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 2.1[/COLOR]: [COLOR="Gray"][i](08/12/2022)[/i][/COLOR][/b]
+
+[LIST]
+[*]Fixed an Issue resulting on the script to not update "PriceTable files" even tho the script outputs that it did.
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 2[/COLOR]: [COLOR="Gray"][i](12/11/2021)[/i][/COLOR][/b]
+
+[LIST]
+[*]Update
+[/LIST]
+
+
+[b][COLOR="Orange"]Version 1[/COLOR]: [COLOR="Gray"][i](12/08/2021)[/i][/COLOR][/b]
+
+[LIST]
+[*]Initial Release
+[/LIST]
+

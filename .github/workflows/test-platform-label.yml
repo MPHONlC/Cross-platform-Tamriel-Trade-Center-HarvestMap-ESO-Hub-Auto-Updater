@@ -1,0 +1,37 @@
+name: Test Platform Label
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  label:
+    if: contains(github.event.issue.labels.*.name, 'testing') || contains(github.event.issue.labels.*.name, 'bug')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Add the label for the chosen platform
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BODY: ${{ github.event.issue.body }}
+          NUMBER: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+          IS_TEST: ${{ contains(github.event.issue.labels.*.name, 'testing') }}
+        run: |
+          if [ "$IS_TEST" = "true" ]; then KIND="Test"; else KIND="Bug"; fi
+          PLATFORM=$(printf '%s\n' "$BODY" | awk '/^### Platform/{f=1;next} f&&NF{print;exit}')
+          case "$PLATFORM" in
+            "Linux") PREFIX="Linux" ;;
+            "macOS") PREFIX="macOS" ;;
+            "SteamDeck") PREFIX="SteamDeck" ;;
+            "Windows") PREFIX="Windows" ;;
+            *) echo "No platform label for '$PLATFORM'"; exit 0 ;;
+          esac
+          LABEL="$PREFIX $KIND"
+          for P in "Linux" "macOS" "SteamDeck" "Windows"; do
+            if [ "$P $KIND" != "$LABEL" ]; then
+              gh issue edit "$NUMBER" -R "$REPO" --remove-label "$P $KIND" 2>/dev/null || true
+            fi
+          done
+          gh issue edit "$NUMBER" -R "$REPO" --add-label "$LABEL"

@@ -1,0 +1,119 @@
+name: ESOUI Template Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry Run (tests the ESOUI upload against ESOUI's test endpoint, publishes nothing)"
+        type: boolean
+        default: true
+      upload_esoui:
+        description: "Upload the Database Template to ESOUI"
+        type: boolean
+        default: false
+
+concurrency:
+  group: template-release-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      TEMPLATE_ID: '4428'
+      TEMPLATE_DB: 'Auto-Updater Database Template/LTTC_Database.db'
+      TEMPLATE_HISTORY: 'Auto-Updater Database Template/LTTC_History.db'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Decide what this run does
+        id: mode
+        run: |
+          if [ "${{ inputs.dry_run }}" == "true" ]; then
+            echo "mode=dry" >> "$GITHUB_OUTPUT"
+            if [ "${{ inputs.upload_esoui }}" == "true" ]; then
+              echo "::notice title=Dry Run Is On::Upload to ESOUI was checked, but Dry Run is on, so nothing is published."
+            fi
+          elif [ "${{ inputs.upload_esoui }}" == "true" ]; then
+            echo "mode=real" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=none" >> "$GITHUB_OUTPUT"
+            echo "::warning title=Nothing To Do::Dry Run is off and Upload to ESOUI is not checked."
+          fi
+
+      - name: Read the template version
+        id: version
+        if: steps.mode.outputs.mode != 'none'
+        run: |
+          if [ ! -s "$TEMPLATE_DB" ]; then
+            echo "::error title=Template Missing::$TEMPLATE_DB is missing or empty."
+            exit 1
+          fi
+          VER=$(head -n 1 "$TEMPLATE_DB" | tr -d '\r' | sed -n 's/^#DATABASE VERSION: *\([0-9][0-9]*\(\.[0-9][0-9]*\)\{1,\}\)$/\1/p')
+          if [ -z "$VER" ]; then
+            echo "::error title=No Version Line::The first line of $TEMPLATE_DB must be '#DATABASE VERSION: YYYY.MM.DD.HH.mm'. Build the template with make template."
+            exit 1
+          fi
+          if [ -s "$TEMPLATE_HISTORY" ]; then
+            HVER=$(head -n 1 "$TEMPLATE_HISTORY" | tr -d '\r' | sed -n 's/^#HISTORY VERSION: *//p')
+            if [ "$HVER" != "$VER" ]; then
+              echo "::error title=Versions Differ::LTTC_History.db says '$HVER' but LTTC_Database.db says '$VER'. Build both with make template."
+              exit 1
+            fi
+          fi
+          LIVE=$(curl -s -f -m 30 "https://api.mmoui.com/v3/game/ESO/filedetails/$TEMPLATE_ID.json" | python3 -c 'import json,sys; print(json.load(sys.stdin)[0]["UIVersion"])' 2>/dev/null || true)
+          echo "Template version: $VER, live on ESOUI: ${LIVE:-unknown}"
+          if [ -n "$LIVE" ] && { [ "$LIVE" = "$VER" ] || [ "$(printf '%s\n%s\n' "$LIVE" "$VER" | sort -V | tail -n 1)" != "$VER" ]; }; then
+            echo "::error title=Version Not Newer::The template is $VER and ESOUI already has $LIVE. The updater only downloads a higher version, so rebuild it with make template first."
+            exit 1
+          fi
+          echo "version=$VER" >> "$GITHUB_OUTPUT"
+          echo "live=${LIVE:-unknown}" >> "$GITHUB_OUTPUT"
+
+      - name: Build the template zip
+        if: steps.mode.outputs.mode != 'none'
+        run: |
+          mkdir -p /tmp/template
+          cp "$TEMPLATE_DB" /tmp/template/LTTC_Database.db
+          FILES=(LTTC_Database.db)
+          if [ -s "$TEMPLATE_HISTORY" ]; then cp "$TEMPLATE_HISTORY" /tmp/template/LTTC_History.db; FILES+=(LTTC_History.db); fi
+          cd /tmp/template && zip -X "Auto-Updater Database Template.zip" "${FILES[@]}"
+          unzip -l "Auto-Updater Database Template.zip"
+
+      - name: Upload to ESOUI
+        id: upload
+        if: steps.mode.outputs.mode != 'none'
+        env:
+          ESOUI_API_KEY: ${{ secrets.ESOUI_API_KEY }}
+        run: |
+          if [ -z "$ESOUI_API_KEY" ]; then
+            echo "::error title=No API Key::The ESOUI_API_KEY secret is not set."
+            exit 1
+          fi
+          if [ "${{ steps.mode.outputs.mode }}" == "dry" ]; then URL="https://api.esoui.com/addons/updatetest"; else URL="https://api.esoui.com/addons/update"; fi
+          curl --silent --show-error --fail-with-body -X POST \
+            -H "x-api-token: $ESOUI_API_KEY" \
+            -F "id=$TEMPLATE_ID" \
+            -F "version=${{ steps.version.outputs.version }}" \
+            -F "updatefile=@/tmp/template/Auto-Updater Database Template.zip" \
+            "$URL"
+          echo
+
+      - name: Report the result
+        if: always() && steps.mode.outputs.mode != 'none'
+        run: |
+          if [ "${{ steps.mode.outputs.mode }}" == "dry" ]; then KIND="Template Dry Run"; else KIND="Template Upload"; fi
+          if [ "${{ steps.upload.outcome }}" == "success" ]; then TITLE="$KIND Complete"; else TITLE="$KIND Failed"; fi
+          echo "::notice title=$TITLE::Database Template ${{ steps.version.outputs.version }} (ESOUI had ${{ steps.version.outputs.live }})."
+          {
+            echo "## $TITLE"
+            echo ""
+            echo "- **Template version:** ${{ steps.version.outputs.version }}"
+            echo "- **Version on ESOUI before this run:** ${{ steps.version.outputs.live }}"
+            echo "- **ESOUI file ID:** $TEMPLATE_ID"
+          } >> "$GITHUB_STEP_SUMMARY"

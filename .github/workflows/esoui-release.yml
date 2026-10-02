@@ -1,0 +1,144 @@
+name: ESOUI Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry Run (tests the ESOUI upload against ESOUI's test endpoint, publishes nothing)"
+        type: boolean
+        default: true
+      upload_esoui:
+        description: "Upload to ESOUI"
+        type: boolean
+        default: false
+  workflow_call:
+    inputs:
+      dry_run:
+        description: "Dry Run (tests the ESOUI upload against ESOUI's test endpoint, publishes nothing)"
+        type: boolean
+        default: true
+      upload_esoui:
+        description: "Upload to ESOUI"
+        type: boolean
+        default: false
+
+concurrency:
+  group: release-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    uses: ./.github/workflows/release-gate.yml
+    secrets: inherit
+    permissions:
+      contents: write
+
+  release:
+    needs: gate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Decide what this run does
+        id: mode
+        run: |
+          if [ "${{ inputs.dry_run }}" == "true" ]; then
+            echo "mode=dry" >> "$GITHUB_OUTPUT"
+            if [ "${{ inputs.upload_esoui }}" == "true" ]; then
+              echo "::notice title=Dry Run Is On::Upload to ESOUI was checked, but Dry Run is on, so nothing is published."
+            fi
+          elif [ "${{ inputs.upload_esoui }}" == "true" ]; then
+            echo "mode=real" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=none" >> "$GITHUB_OUTPUT"
+            echo "::warning title=Nothing To Do::Dry Run is off and Upload to ESOUI is not checked."
+          fi
+
+      - name: Read version
+        id: version
+        run: |
+          VER=$(tr -d ' \r\n' < VERSION)
+          echo "Read version: $VER"
+          echo "display_version=$VER" >> "$GITHUB_OUTPUT"
+
+      - name: Build the release zip from dist/
+        run: |
+          PKG="Tamriel Trade Center, HarvestMap, ESO-Hub, ESOUI Auto-Updater"
+          mkdir -p "/tmp/build/$PKG"
+          cp dist/Linux_Tamriel_Trade_Center.sh dist/macOS_Tamriel_Trade_Center.sh dist/Windows_Tamriel_Trade_Center.bat LICENSE.md "/tmp/build/$PKG/"
+          chmod +x "/tmp/build/$PKG/"*.sh
+          cd /tmp/build && zip -r -X Tamriel_Trade_Center_Auto-Updater.zip "$PKG"
+          echo "zip_file=/tmp/build/Tamriel_Trade_Center_Auto-Updater.zip" >> "$GITHUB_ENV"
+
+      - name: Extract latest changelog entries
+        run: |
+          awk '/^\[b\]\[COLOR="Orange"\]Version / { if (found) exit; found=1 } found' CHANGELOG_BBCODE.txt > latest_changes_esoui.txt
+          awk '/^### Version / { if (found) exit; found=1 } found' CHANGELOG_GFM.txt > latest_changes_github.md
+          awk '/^Version: / { if (found) exit; found=1 } found' CHANGELOG.md > latest_changes_plain.md
+          cat latest_changes_plain.md
+
+      - name: Test upload to ESOUI (dry run)
+        id: dry_run_step
+        if: steps.mode.outputs.mode == 'dry'
+        uses: m00nyONE/esoui-upload@main
+        with:
+          api_key: ${{ secrets.ESOUI_API_KEY }}
+          addon_id: '3249'
+          version: ${{ steps.version.outputs.display_version }}
+          zip_file: ${{ env.zip_file }}
+          changelog_file: 'CHANGELOG_BBCODE.txt'
+          description_file: 'README_BBCODE.txt'
+          test: true
+
+      - name: Upload to ESOUI
+        id: real_step
+        if: steps.mode.outputs.mode == 'real'
+        uses: m00nyONE/esoui-upload@main
+        with:
+          api_key: ${{ secrets.ESOUI_API_KEY }}
+          addon_id: '3249'
+          version: ${{ steps.version.outputs.display_version }}
+          zip_file: ${{ env.zip_file }}
+          changelog_file: 'CHANGELOG_BBCODE.txt'
+          description_file: 'README_BBCODE.txt'
+
+      - name: Report the result
+        if: always() && steps.mode.outputs.mode != 'none'
+        run: |
+          if [ "${{ steps.mode.outputs.mode }}" == "dry" ]; then STATUS="${{ steps.dry_run_step.outcome }}"; KIND="ESOUI Dry Run"; else STATUS="${{ steps.real_step.outcome }}"; KIND="ESOUI Upload"; fi
+          if [ "$STATUS" == "success" ]; then TITLE="$KIND Complete"; DETAIL=""; else TITLE="$KIND Failed"; DETAIL=" Check the upload step's log above. A failure with no other detail usually means the ESOUI_API_KEY secret, the file ID (3249) or the version was rejected server-side."; fi
+          echo "::notice title=$TITLE::Version ${{ steps.version.outputs.display_version }}.$DETAIL"
+          {
+            echo "## $TITLE"
+            echo ""
+            echo "- **Version:** ${{ steps.version.outputs.display_version }}"
+            if [ -n "$DETAIL" ]; then echo ""; echo "${DETAIL# }"; fi
+            echo ""
+            echo "### Changelog"
+            echo '```'
+            cat latest_changes_plain.md
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: ./.github/actions/git-commit-signing
+        if: steps.mode.outputs.mode == 'real'
+        with:
+          ssh_signing_key: ${{ secrets.SSH_SIGNING_KEY }}
+
+      - name: Tag the release
+        if: steps.mode.outputs.mode == 'real' && success()
+        run: |
+          TAG="Version-${{ steps.version.outputs.display_version }}"
+          if git ls-remote --tags origin "$TAG" | grep -q "$TAG"; then
+            echo "Tag $TAG already exists."
+          else
+            git config user.name "MPHONlC"
+            git config user.email "207844175+MPHONlC@users.noreply.github.com"
+            git tag -m "$TAG" "$TAG"
+            git push origin "$TAG"
+          fi

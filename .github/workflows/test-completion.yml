@@ -1,0 +1,30 @@
+name: Test Completion
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  completion:
+    if: contains(github.event.issue.labels.*.name, 'testing')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Label the test and move it to the right milestone
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BODY: ${{ github.event.issue.body }}
+          NUMBER: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          CHECKED=$(printf '%s\n' "$BODY" | grep -cE '^\s*- \[[xX]\]' || true)
+          UNCHECKED=$(printf '%s\n' "$BODY" | grep -cE '^\s*- \[ \]' || true)
+          if [ "$CHECKED" -gt 0 ] && [ "$UNCHECKED" -eq 0 ]; then
+            LABEL="COMPLETED TEST"; OTHER="INCOMPLETE TEST"; MILESTONE="Completed"
+          else
+            LABEL="INCOMPLETE TEST"; OTHER="COMPLETED TEST"; MILESTONE="Backlog"
+          fi
+          echo "Checked: $CHECKED, unchecked: $UNCHECKED -> $LABEL"
+          gh issue edit "$NUMBER" -R "$REPO" --remove-label "$OTHER" || true
+          gh issue edit "$NUMBER" -R "$REPO" --add-label "$LABEL" --milestone "$MILESTONE"

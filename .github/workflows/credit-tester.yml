@@ -1,0 +1,27 @@
+name: Credit Tester
+
+on:
+  issues:
+    types: [closed]
+
+concurrency:
+  group: credit-tester
+  cancel-in-progress: false
+
+jobs:
+  credit-tester:
+    if: github.event.issue.state_reason == 'completed' && contains(github.event.issue.labels.*.name, 'testing')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - uses: ./.github/actions/git-commit-signing
+        with:
+          ssh_signing_key: ${{ secrets.SSH_SIGNING_KEY }}
+
+      - uses: ./.github/actions/credit-tester
+        with:
+          username: ${{ github.event.issue.user.login }}

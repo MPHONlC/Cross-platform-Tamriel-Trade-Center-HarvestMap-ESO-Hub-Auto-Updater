@@ -1,0 +1,19 @@
+name: Issue Backlog
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  backlog:
+    if: ${{ !contains(github.event.issue.labels.*.name, 'testing') }}
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Move the new issue to the Backlog milestone
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+        run: gh issue edit "$NUMBER" -R "$REPO" --milestone "Backlog"
