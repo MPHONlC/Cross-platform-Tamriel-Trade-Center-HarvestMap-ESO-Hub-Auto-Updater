@@ -1,0 +1,58 @@
+name: 'Git Commit Signing'
+description: "Configures SSH commit signing on the runner so every later git commit in the job shows as Verified on GitHub."
+
+inputs:
+  ssh_signing_key:
+    description: 'Private SSH key whose public half is registered as a signing key on the GitHub account that owns the commits (pass a secret). Empty means skip and leave commits unsigned.'
+    required: false
+    default: ''
+  git_name:
+    description: 'Git user.name to set globally for this job (optional)'
+    required: false
+    default: ''
+  git_email:
+    description: 'Git user.email to set globally for this job; must be a verified email on the account that owns the signing key (optional)'
+    required: false
+    default: ''
+
+outputs:
+  signing:
+    description: "'true' if signing was configured, 'false' if no key was provided"
+    value: ${{ steps.configure.outputs.signing }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Configure SSH commit signing
+      id: configure
+      shell: bash
+      env:
+        SSH_SIGNING_KEY: ${{ inputs.ssh_signing_key }}
+        GIT_NAME: ${{ inputs.git_name }}
+        GIT_EMAIL: ${{ inputs.git_email }}
+      run: |
+        if [ -n "$GIT_NAME" ]; then
+          git config --global user.name "$GIT_NAME"
+        fi
+        if [ -n "$GIT_EMAIL" ]; then
+          git config --global user.email "$GIT_EMAIL"
+        fi
+        if [ -z "$SSH_SIGNING_KEY" ]; then
+          echo "signing=false" >> "$GITHUB_OUTPUT"
+          echo "::warning title=Commit Signing Skipped::No ssh_signing_key was provided, so commits made in this job will show as Unverified. Add the SSH_SIGNING_KEY secret to fix this."
+          exit 0
+        fi
+        KEY_FILE="$RUNNER_TEMP/git_signing_key"
+        umask 077
+        printf '%s\n' "$SSH_SIGNING_KEY" > "$KEY_FILE"
+        if ! ssh-keygen -y -f "$KEY_FILE" > "$KEY_FILE.pub"; then
+          echo "signing=false" >> "$GITHUB_OUTPUT"
+          echo "::error title=Commit Signing Failed::ssh_signing_key is not a readable private key (ssh-keygen could not derive its public half). Check the SSH_SIGNING_KEY secret."
+          exit 1
+        fi
+        git config --global gpg.format ssh
+        git config --global user.signingkey "$KEY_FILE"
+        git config --global commit.gpgsign true
+        git config --global tag.gpgsign true
+        echo "signing=true" >> "$GITHUB_OUTPUT"
+        echo "::notice title=Commit Signing Enabled::Commits in this job will be SSH-signed with $(cut -d' ' -f1-2 "$KEY_FILE.pub" | cut -c1-40)..."

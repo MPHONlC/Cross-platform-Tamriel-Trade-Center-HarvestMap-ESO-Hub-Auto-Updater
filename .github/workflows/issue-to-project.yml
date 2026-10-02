@@ -1,0 +1,34 @@
+name: Issue To Project
+
+on:
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add the issue to this repository's project board
+        env:
+          GH_TOKEN: ${{ secrets.PROJECT_TOKEN }}
+          ISSUE_ID: ${{ github.event.issue.node_id }}
+          REPO: ${{ github.event.repository.name }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning title=No PROJECT_TOKEN::Add a token with the project scope as the PROJECT_TOKEN secret so issues can be added to the board."
+            exit 0
+          fi
+          if ! PROJECT_ID=$(gh api graphql -f query='query($login: String!) { user(login: $login) { projectsV2(first: 100) { nodes { id title } } } }' -f login="$OWNER" --jq ".data.user.projectsV2.nodes[] | select(.title == \"$REPO\") | .id" 2>/tmp/err); then
+            echo "::warning title=Project board lookup failed::$(tr '\n' ' ' < /tmp/err)"
+            exit 0
+          fi
+          if [ -z "$PROJECT_ID" ]; then
+            echo "::warning title=No project board::No project named $REPO exists for $OWNER."
+            exit 0
+          fi
+          if gh api graphql -f query='mutation($project: ID!, $item: ID!) { addProjectV2ItemById(input: { projectId: $project, contentId: $item }) { item { id } } }' -f project="$PROJECT_ID" -f item="$ISSUE_ID" >/dev/null 2>/tmp/err; then
+            echo "Added to the $REPO project board."
+          else
+            echo "::warning title=Could not add to the board::$(tr '\n' ' ' < /tmp/err)"
+          fi

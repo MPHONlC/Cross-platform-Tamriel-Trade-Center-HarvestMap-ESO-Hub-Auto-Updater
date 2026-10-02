@@ -1,0 +1,888 @@
+#HISTORY VERSION: 2026.09.30.15.59
+HISTORY|1788972129|Listed|10000|200|44879|Equipment Repair Kit||@Sycoseas|Tamriel Trade Secrets, Bleakrock Barter Co|84, 78, 102|[97m|TTC|23
+HISTORY|1789508994|Sold|1600|200|64489|Rubedite Ingot||@Kouv, @xizir, @wouizer, @C6H8O6, @mudcrab-soup, @Sabel_Kitty|ChilI Vibes, Anti-Social Trading Guild, Tamriel Trade Secrets|90, 21, 64, 100, 102|[97m|TTC|59
+HISTORY|1789771892|Sold|84|1|45342|Rubedite Gauntlets||@rsns, @lemonbalm|ChilI Vibes, Anti-Social Trading Guild, Tamriel Trade Secrets|90, 21, 64, 52, 102|[33m|TTC|23
+HISTORY|1788993405|Sold|250|1|45302|Rubedite Maul||@mao333|ChilI Vibes, Tamriel Trade Secrets|90, 102|[33m|TTC|6
+HISTORY|1789445868|Sold|84|1|45349|Ancestor Silk Gloves||@rsns|ChilI Vibes, Anti-Social Trading Guild|90, 64, 52, 21|[33m|TTC|18
+HISTORY|1789445871|Sold|171|1|45351|Ancestor Silk Breeches||@rsns, @Jooshie27, @josepho28|ChilI Vibes, Anti-Social Trading Guild, Tamriel Trade Secrets|90, 64, 100, 52, 21|[33m|TTC|17
+HISTORY|1789445859|Sold|141|1|45359|Rubedo Leather Helmet||@rsns, @Unoriginal_Daisy, @josepho28, @Jooshie27|ChilI Vibes, Anti-Social Trading Guild, Tamriel Trade Secrets|90, 21, 64, 100, 96, 86|[33m|TTC|28
+HISTORY|1789445862|Sold|171|1|45360|Rubedo Leather Guards||@rsns, @Unoriginal_Daisy, @edusalustiano|ChilI Vibes, Anti-Social Trading Guild|90, 64, 100, 52, 21|[33m|TTC|32
+HISTORY|1789445857|Sold|84|1|45362|Rubedo Leather Belt||@rsns, @josepho28, @Jooshie27|ChilI Vibes, Anti-Social Trading Guild, Tamriel Trade Secrets|90, 21, 64, 100, 96|[33m|TTC|25
+HISTORY|1789404035|Sold|141|1|45299|Rubedite Mace||@rsns, @edusalustiano, @Jooshie27|ChilI Vibes, Anti-Social Trading Guild, Tamriel Trade Secrets|90, 21, 64, 100|[33m|TTC|21
+HISTORY|1789806989|Sold|1400|200|64489|Rubedite Ingot||@Sabel_Kitty|ChilI Vibes, Tamriel Trade Secrets|90, 102|[97m|TTC|15
+HISTORY|1788972129|Listed|2500|1|153737|Master Jewelry Crafter Writ||@Poquette, @Shadowjazz32|Automaton Ayrenn's Agents, Nahfahlaar's Hoard, DragonDucks, Kilts For Sale, Anti-Social Trading Guild|52, 21|[33m|TTC|33
+HISTORY|1788972129|Listed|8000|200|44879|Equipment Repair Kit||@AncientVampire|Savage Blade, Anti-Social Trading Guild|78, 21|[97m|TTC|36
+HISTORY|1788972129|Listed|2400|200|64502|Sanded Ruby Ash||@Lagtency|Savage Blade, Nahfahlaar's Hoard, Anti-Social Trading Guild, DragonDucks, Nocturnal's Company, UESP, Automaton Ayrenn's Agents, Bleakrock Barter Co, Tamriel Trade Secrets|81, 78, 80, 96, 102|[97m|TTC|557
+HISTORY|1788972129|Listed|14000|1|56863|Potent Nirncrux||@Lori_GamerBro|Nahfahlaar's Hoard, Tamriel Trade Secrets|102|[35m|TTC|11
+HISTORY|1788972129|Listed|27|1|45918|Recipe: Tarragon Chicken||@Bryon61|Nahfahlaar's Hoard, Nocturnal's Company, Bleakrock Barter Co, Anti-Social Trading Guild|81, 78, 21|[32m|TTC|57
+HISTORY|1788972129|Listed|50|1|126844|Diagram: Daedric Pedestal, Ritual||@BentleyGaming88, @Starbuxslayer|Nahfahlaar's Hoard, Blackbriar Barter Co, DragonDucks, Nocturnal's Company, UESP, Anti-Social Trading Guild, Tamriel Trade Secrets|81, 78, 64, 102|[36m|TTC|122
+HISTORY|1788972129|Listed|50|1|126836|Diagram: Daedric Bench, Ashen||@Rhatha, @Starbuxslayer|Nahfahlaar's Hoard, Blackbriar Barter Co, DragonDucks, Tamriel Trade Secrets|78, 102|[36m|TTC|124
+HISTORY|1788972129|Listed|4000|200|64489|Rubedite Ingot||@WanderJack, @MidnightOfRain|Blackbriar Barter Co, Tamriel Trade Secrets|78, 102|[97m|TTC|90
+HISTORY|1788972129|Listed|14000|200|71198|Rubedite Ore||@Chalindrea|Blackbriar Barter Co, Tamriel Trade Secrets|102|[97m|TTC|12
+HISTORY|1788972129|Listed|10000|200|33271|Soul Gem||@ParalyzerT9, @AncientVampire, @ASTGBANK, @WanderingConqueror, @Halloween.1744|Bleakrock Barter Co, Anti-Social Trading Guild, Tamriel Trade Secrets|80, 96, 86, 21, 102|[32m|TTC|58
+HISTORY|1788972129|Listed|100|1|116151|Blueprint: Nord Nightstand, Rough||@belllyache|Anti-Social Trading Guild|80, 96, 21|[32m|TTC|16
+HISTORY|1788972129|Listed|2000|100|27036|Essence of Health||@deadbeforedeath|Anti-Social Trading Guild, DragonDucks, Tamriel Trade Secrets|78, 102|[36m|TTC|28
+HISTORY|1788972129|Listed|141|1|45350|Ancestor Silk Hat||@rsns|Anti-Social Trading Guild, UESP|81, 80, 96, 21|[33m|TTC|27
+HISTORY|1788972129|Listed|27|1|68192|Recipe: Firsthold Fruit and Cheese Plate||@Riot-Rhythm, @Iddylion|DragonDucks, Nahfahlaar's Hoard, Anti-Social Trading Guild, Blackbriar Barter Co|78, 80, 96, 21|[32m|TTC|133
+HISTORY|1788972129|Listed|84|1|45362|Rubedo Leather Belt||@Magpyer, @rsns|UESP, Imperial Gold Reserve, Anti-Social Trading Guild|81, 9, 21|[33m|TTC|15
+HISTORY|1788972129|Listed|141|1|45304|Rubedite Dagger||@rsns|UESP, Anti-Social Trading Guild|81, 64, 21|[33m|TTC|18
+HISTORY|1788972129|Listed|228|1|45302|Rubedite Maul||@Frankluckone, @rsns|UESP, Automaton Ayrenn's Agents, Ebony Furnace, Anti-Social Trading Guild|81, 78, 21|[33m|TTC|23
+HISTORY|1788972129|Listed|90000|1|171328|Rubyblossom Extract||@SeekUp|UESP, Tamriel Trade Secrets|81, 102|[33m|TTC|25
+HISTORY|1788988951|Sold|1000|200|64489|Rubedite Ingot||@celeste.lavie|Anti-Social Trading Guild, Tamriel Trade Secrets|102|[97m|TTC|3
+HISTORY|1788972129|Listed|75|1|116025|Diagram: Dark Elf Candle, Claw Base||@erjifo, @Starbuxslayer|Automaton Ayrenn's Agents, Imperial Gold Reserve, Tamriel Trade Secrets|78, 9, 102|[32m|TTC|14
+HISTORY|1788972129|Listed|84|1|45342|Rubedite Gauntlets||@rsns, @lemonbalm|Automaton Ayrenn's Agents, Anti-Social Trading Guild, Tamriel Trade Secrets|78, 21, 102|[33m|TTC|12
+HISTORY|1788972129|Listed|1250000|1|177062|Companion's Cuirass||@ASTGBANK|Bleakrock Barter Co, Anti-Social Trading Guild|78, 21|[97m|TTC|11
+HISTORY|1788972129|Listed|135|5|74729|Roguish Escape Draught||@Halloween.1744|Nahfahlaar's Hoard, Tamriel Trade Secrets|78, 102|[36m|TTC|11
+HISTORY|1788972129|Listed|10000|200|71198|Rubedite Ore||@Iddylion|Nahfahlaar's Hoard, Blackbriar Barter Co, Anti-Social Trading Guild|78, 21|[97m|TTC|31
+HISTORY|1788972129|Listed|228|1|45301|Rubedite Battle Axe||@rsns|Nahfahlaar's Hoard, Anti-Social Trading Guild|78, 21|[33m|TTC|11
+HISTORY|1788972129|Listed|84|1|45341|Rubedite Sabatons||@rsns|Anti-Social Trading Guild|80, 96, 64, 21|[33m|TTC|27
+HISTORY|1788972129|Listed|141|1|45361|Rubedo Leather Arm Cops||@rsns|Anti-Social Trading Guild|80, 96, 21|[33m|TTC|11
+HISTORY|1788972129|Listed|500|1|219768|Diagram: Breton Spyglass||@belllyache|Chimera Syndicate, Anti-Social Trading Guild|80, 21|[36m|TTC|11
+HISTORY|1788972129|Listed|20000|200|135146|Platinum Ounce||@KrystaK238, @Zalkreai, @Calamity_ESO, @Lori_GamerBro|DragonDucks, St Elsweyr Guild, Trusty Skeever Emporium, Tamriel Trade Secrets|78, 17, 0, 102|[97m|TTC|53
+HISTORY|1789445858|Sold|141|1|45361|Rubedo Leather Arm Cops||@rsns, @lemonbalm, @Zan'Raht|Anti-Social Trading Guild, Tamriel Trade Secrets|21, 64, 102|[33m|TTC|17
+HISTORY|1789074388|Sold|84|1|45354|Ancestor Silk Sash||@rsns, @josepho28|Anti-Social Trading Guild|64, 100, 21|[33m|TTC|19
+HISTORY|1789363276|Sold|229|1|45329|Ruby Ash Inferno Staff||@Aruk12|Tamriel Trade Secrets|86, 102|[33m|TTC|4
+HISTORY|1789363274|Sold|229|1|45332|Ruby Ash Restoration Staff||@Aruk12|Tamriel Trade Secrets|86, 102|[33m|TTC|5
+HISTORY|1789363272|Sold|229|1|45331|Ruby Ash Lightning Staff||@Aruk12|Tamriel Trade Secrets|86, 102|[33m|TTC|6
+HISTORY|1789360163|Sold|120|1|115733|Blueprint: Argonian Chair, Rough||@probablewitch|Tamriel Trade Secrets|102|[32m|TTC|2
+HISTORY|1788972129|Listed|7600|200|33271|Soul Gem||@BelovedBelle, @Jumbojoe77, @wouizer|Tamriel Trade Secrets, Anti-Social Trading Guild|84, 21|[32m|TTC|10
+HISTORY|1789445873|Sold|171|1|45352|Ancestor Silk Jerkin||@Unoriginal_Daisy, @rsns, @josepho28, @Jooshie27|Anti-Social Trading Guild, Tamriel Trade Secrets|21, 64, 100, 96|[33m|TTC|17
+HISTORY|1789432591|Sold|228|1|45302|Rubedite Maul||@rsns, @Jooshie27, @JZeBeast, @Halloween.1744|Anti-Social Trading Guild, Tamriel Trade Secrets|21, 64, 100, 86, 52, 90|[33m|TTC|17
+HISTORY|1789342729|Sold|171|1|45344|Rubedite Greaves||@rsns, @josepho28|Anti-Social Trading Guild|21, 96, 52, 64|[33m|TTC|8
+HISTORY|1789404039|Sold|141|1|45298|Rubedite Axe||@rsns|Anti-Social Trading Guild|21, 64|[97m|TTC|8
+HISTORY|1788970559|Sold|84|1|45341|Rubedite Sabatons||@rsns|Anti-Social Trading Guild|21, 64, 52|[33m|TTC|12
+HISTORY|1789703553|Sold|3000|200|64506|Rubedo Leather||@Lori_GamerBro, @Spartacus621, @soulpilchard, @Unhappy_Bagel, @Sabel_Kitty|Tamriel Trade Secrets, Anti-Social Trading Guild|84, 21, 86, 102|[97m|TTC|22
+HISTORY|1789363328|Sold|750|1|138796|Platinum Ring||@Lori_GamerBro, @Kaiberious777, @mcninjalo, @poodurdle, @MrNobodyNZ|Tamriel Trade Secrets, Anti-Social Trading Guild|21, 96, 0, 52, 86, 102|[33m|TTC|30
+HISTORY|1789363328|Sold|750|1|138797|Platinum Necklace||@Lori_GamerBro, @Cinnadots, @Appalache, @Kaiberious777, @guantou, @mcninjalo, @poodurdle, @Mr.Grog, @Seleucian|Tamriel Trade Secrets, Anti-Social Trading Guild|21, 84, 86, 96, 0, 102|[33m|TTC|69
+HISTORY|1789573125|Sold|250|1|223158|Worm Cult Hammer, Mining||@danmhensley, @Capo4syn|Tamriel Trade Secrets|84, 102|[36m|TTC|3
+HISTORY|1788971494|Sold|10000|1|219850|Unidentified Clothier Survey Report||@BentleyGaming88, @ZRETT, @Iddylion, @Reuttiger, @ASTGBANK, @Seleucian, @DragonWhimsy|Anti-Social Trading Guild, Tamriel Trade Secrets|64, 86, 100, 102|[36m|TTC|26
+HISTORY|1789342728|Sold|141|1|45343|Rubedite Helm||@Kaiberious777, @rsns, @edusalustiano|Anti-Social Trading Guild|64, 100, 52, 21|[97m|TTC|12
+HISTORY|1789342731|Sold|199|1|45345|Rubedite Pauldron||@Aruk12, @AcidNorAlkaline|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[33m|TTC|3
+HISTORY|1789363251|Sold|190|1|45351|Ancestor Silk Breeches||@wouizer, @BelovedBelle|Anti-Social Trading Guild, Tamriel Trade Secrets|21, 102|[33m|TTC|3
+HISTORY|1789801327|Sold|81|1|45358|Rubedo Leather Bracers||@Kaiberious777, @Unoriginal_Daisy, @rsns, @lemonbalm|Anti-Social Trading Guild, Tamriel Trade Secrets|21, 64, 102|[33m|TTC|4
+HISTORY|1789445863|Sold|199|1|45357|Rubedo Leather Boots||@Aruk12, @parsonsjd64, @AcidNorAlkaline|Tamriel Trade Secrets, Anti-Social Trading Guild|84, 86, 21|[97m|TTC|6
+HISTORY|1788993388|Sold|199|1|45361|Rubedo Leather Arm Cops||@Aruk12, @parsonsjd64|Tamriel Trade Secrets|84, 86, 102|[33m|TTC|6
+HISTORY|1789363277|Sold|229|1|45320|Ruby Ash Bow||@Aruk12|Tamriel Trade Secrets|84, 102|[33m|TTC|6
+HISTORY|1789363329|Sold|699|1|138797|Platinum Necklace||@parsonsjd64|Tamriel Trade Secrets|84, 86, 102|[33m|TTC|7
+HISTORY|1789513428|Sold|900|1|219851|Unidentified Woodworker Survey Report||@Azrael_Blackfyre, @iamleronald, @celeste.lavie|Tamriel Trade Secrets|102|[36m|TTC|3
+HISTORY|1788994194|Sold|9000|1|54173|Tempering Alloy||@hamtur, @Sabel_Kitty|Anti-Social Trading Guild, Tamriel Trade Secrets|102|[33m|TTC|2
+HISTORY|1789342726|Sold|84|1|45346|Rubedite Girdle||@rsns, @Jooshie27, @josepho28|Anti-Social Trading Guild, Tamriel Trade Secrets|64, 52, 21|[35m|TTC|11
+HISTORY|1789342730|Sold|171|1|45340|Rubedite Cuirass||@rsns, @edusalustiano, @Jooshie27|Anti-Social Trading Guild, Tamriel Trade Secrets|64, 100, 52, 21|[35m|TTC|14
+HISTORY|1789445870|Sold|141|1|45350|Ancestor Silk Hat||@rsns, @josepho28|Anti-Social Trading Guild|64, 100, 96, 52, 21|[33m|TTC|7
+HISTORY|1789074387|Sold|84|1|45348|Ancestor Silk Shoes||@rsns, @josepho28|Anti-Social Trading Guild|64, 100, 21|[33m|TTC|6
+HISTORY|1789329800|Sold|1000|1|138796|Platinum Ring||@Guylords, @Salreth, @MeredithGentry, @ghostpants772, @Halloween.1744, @mokubahv, @rvynd13|Anti-Social Trading Guild, Tamriel Trade Secrets|64, 86, 21|[33m|TTC|19
+HISTORY|1789329800|Sold|1000|1|138797|Platinum Necklace||@Guylords, @kAmayaKaze, @ghostpants772, @Intricate_Skooma, @ExplicitDips, @rvynd13|Anti-Social Trading Guild, Tamriel Trade Secrets|64, 86, 0, 21|[33m|TTC|17
+HISTORY|1788993401|Sold|199|1|45349|Ancestor Silk Gloves||@Aruk12, @parsonsjd64|Tamriel Trade Secrets|86, 102|[33m|TTC|5
+HISTORY|1789801306|Sold|200|1|45352|Ancestor Silk Jerkin||@Starbuxslayer, @IndyBart, @Jooshie27, @poodurdle, @Mr.Grog|Tamriel Trade Secrets|86, 102|[33m|TTC|11
+HISTORY|1789093520|Sold|40000|2|219854|Unidentified Jewelry Crafter Survey Report||@redcoAt12, @dustpuddle|Tamriel Trade Secrets, Anti-Social Trading Guild|21|[36m|TTC|3
+HISTORY|1789346309|Sold|20000|1|219854|Unidentified Jewelry Crafter Survey Report||@redcoAt12, @Shibuya1, @ZRETT, @Mr.Grog, @AncientVampire, @venthegremlin, @dustpuddle|Tamriel Trade Secrets, Anti-Social Trading Guild|100, 52, 21|[36m|TTC|10
+HISTORY|1789342732|Sold|199|1|45342|Rubedite Gauntlets||@Aruk12, @parsonsjd64, @ImperfectPitch, @AcidNorAlkaline|Tamriel Trade Secrets, Anti-Social Trading Guild|84, 86, 21|[33m|TTC|7
+HISTORY|1789363255|Sold|199|1|45363|Ruby Ash Shield||@parsonsjd64|Tamriel Trade Secrets|86, 102|[33m|TTC|4
+HISTORY|1789059409|Sold|4000|200|64489|Rubedite Ingot||@luminux290, @MidnightOfRain|Tamriel Trade Secrets|86, 102|[97m|TTC|6
+HISTORY|1790543560|Listed|5737|1|167250|Style Page: Grave Dancer Mace||@APHONlC|Bacon Rats, Anti-Social Trading Guild, Metrobank|64, 100|[33m|TTC|324
+HISTORY|1790543560|Listed|1863|1|153482|Witches Festival Writ|||Metrobank||[36m|TTC|211
+HISTORY|1788972129|Listed|141|1|45298|Rubedite Axe||@rsns|Anti-Social Trading Guild|64, 21|[97m|TTC|17
+HISTORY|1788972129|Listed|141|1|45299|Rubedite Mace||@rsns|Anti-Social Trading Guild|64, 21|[33m|TTC|4
+HISTORY|1788972129|Listed|100|1|16425|Crafting Motif 5: Breton Style||@Packbrat, @belllyache|Nahfahlaar's Hoard, Anti-Social Trading Guild|78, 21|[36m|TTC|3
+HISTORY|1788972129|Listed|600|200|30357|Lockpick||@ParalyzerT9, @wouizer|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[97m|TTC|3
+HISTORY|1790543560|Listed|7668|200|33271|Soul Gem|||Metrobank||[32m|TTC|420
+HISTORY|1789356998|Sold|1500|1|211581|Ring of Bulwark Ruination||@MrNobodyNZ, @Rubisco2|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[36m|TTC|3
+HISTORY|1789363259|Sold|250|1|45349|Ancestor Silk Gloves||@Llerrad73, @Intricate_Skooma, @graywolf3131, @mao333|Anti-Social Trading Guild, Tamriel Trade Secrets|64, 86, 52, 102|[33m|TTC|4
+HISTORY|1789402583|Sold|8000|1|139658|Exemplary Triune Necklace||@Ks1571tx, @AnnieIsReading, @Lori_GamerBro|Anti-Social Trading Guild, Tamriel Trade Secrets|64, 102|[35m|TTC|3
+HISTORY|1788993389|Sold|199|1|45358|Rubedo Leather Bracers||@parsonsjd64, @Aruk12|Tamriel Trade Secrets|86, 102|[33m|TTC|7
+HISTORY|1789801330|Sold|200|1|45357|Rubedo Leather Boots||@Reuttiger, @IndyBart, @venthegremlin, @Jooshie27, @Mr.Grog, @poodurdle|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 100, 96, 102|[97m|TTC|22
+HISTORY|1789801303|Sold|200|1|45350|Ancestor Silk Hat||@IndyBart, @Jooshie27, @Mr.Grog, @poodurdle|Tamriel Trade Secrets|86, 102|[33m|TTC|22
+HISTORY|1789404030|Sold|200|1|45345|Rubedite Pauldron||@IndyBart, @Salreth, @Jooshie27, @poodurdle, @Guylords|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[33m|TTC|15
+HISTORY|1788993387|Sold|199|1|45356|Rubedo Leather Jack||@Aruk12, @parsonsjd64|Tamriel Trade Secrets|86, 102|[33m|TTC|4
+HISTORY|1789801318|Sold|300|1|45353|Ancestor Silk Epaulets||@Halloween.1744, @soulpilchard|Tamriel Trade Secrets|86, 102|[33m|TTC|4
+HISTORY|1790543560|Listed|7556|200|33271|Soul Gem||@APHONlC|Bacon Rats, Tamriel Trade Secrets, Anti-Social Trading Guild|84, 64, 86, 100|[32m|TTC|2163
+HISTORY|1788972129|Listed|10800|1|219850|Unidentified Clothier Survey Report||@OgnevkaFenella, @Jumbojoe77|Tamriel Trade Secrets, Anti-Social Trading Guild|84, 21|[36m|TTC|2
+HISTORY|1789692089|Sold|500|1|156622|Crafting Motif 81: New Moon Priest Swords||@frenzie357, @ParalyzerT9|Tamriel Trade Secrets|102|[35m|TTC|2
+HISTORY|1788993391|Sold|200|1|45360|Rubedo Leather Guards||@Reuttiger, @Salreth, @Guylords, @Jooshie27, @Mr.Grog, @poodurdle|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 96, 102|[33m|TTC|16
+HISTORY|1790543557|Sold|1500|1|212094|Crafting Motif 132: Stirk Fellowship Maces||@brothertree, @Ace.8|Anti-Social Trading Guild|100, 96|[35m|TTC|2
+HISTORY|1788993392|Sold|199|1|45359|Rubedo Leather Helmet||@parsonsjd64, @Aruk12|Tamriel Trade Secrets|86, 102|[33m|TTC|4
+HISTORY|1789531810|Sold|199|1|64703|Recipe: Psijic Ambrosia, Fragment I||@cdralcatraz|Tamriel Trade Secrets|102|[33m|TTC|2
+HISTORY|1788972129|Listed|10000|200|64504|Ancestor Silk||@WenMiaoMiao, @albai06|Ebony Furnace, Anti-Social Trading Guild|21|[97m|TTC|8
+HISTORY|1790543560|Listed|97999|1|199067|Style Page: Bristleback Hunter Jack|||Anti-Social Trading Guild, Metrobank|100, 96|[33m|TTC|323
+HISTORY|1790543560|Listed|35|1|46015|Recipe: Comberry Chai|||Metrobank||[32m|TTC|206
+HISTORY|1790543560|Listed|28|1|68212|Recipe: Colovian Ginger Beer|||Metrobank||[32m|TTC|206
+HISTORY|1790543560|Listed|463|1|153571|Style Page: Glenmoril Wyrd Shield|||Metrobank||[33m|TTC|206
+HISTORY|1790543560|Listed|1123|1|198346|Style Page: Crowborne Hunter Sash|||Metrobank||[33m|TTC|206
+HISTORY|1790543560|Listed|278|1|210996|Style Page: Worm Cult Hunter Bracers|||Metrobank||[33m|TTC|412
+HISTORY|1790543560|Listed|287|1|210992|Style Page: Worm Cult Hunter Helmet|||Metrobank||[33m|TTC|412
+HISTORY|1789341362|Sold|3000|1|212125|Crafting Motif 134: Tide-Born Gloves||@belllyache|Anti-Social Trading Guild|21|[35m|TTC|2
+HISTORY|1789502531|Sold|17000|1|120831|Blue Crystal Cluster||@SteeJans91|Tamriel Trade Secrets|86, 102|[35m|TTC|2
+HISTORY|1789342732|Sold|199|1|45344|Rubedite Greaves||@parsonsjd64, @AcidNorAlkaline|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[33m|TTC|4
+HISTORY|1789342733|Sold|199|1|45346|Rubedite Girdle||@parsonsjd64, @AcidNorAlkaline|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[35m|TTC|4
+HISTORY|1789349144|Sold|299|1|45343|Rubedite Helm||@parsonsjd64|Tamriel Trade Secrets|86, 102|[97m|TTC|3
+HISTORY|1789408780|Sold|8000|1|139656|Exemplary Harmony Ring||@aluminumsiding, @Kadester00, @WanderingConqueror|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[35m|TTC|3
+HISTORY|1789048729|Sold|8000|10|54181|Rosin||@Ace.8, @celeste.lavie|Anti-Social Trading Guild, Tamriel Trade Secrets|86, 102|[33m|TTC|4
+HISTORY|1789357020|Sold|7600|200|33271|Soul Gem||@Koltez, @wouizer, @Jumbojoe77|Anti-Social Trading Guild|100, 21|[32m|TTC|3
+HISTORY|1788994370|Sold|80000|8|54177|Dreugh Wax||@BlanketWraith, @IndyBart, @Raynefalls, @Furtasia|Tamriel Trade Secrets|86, 102|[33m|TTC|26
+HISTORY|1789747619|Sold|350|1|156614|Crafting Motif 81: New Moon Priest Daggers||@poodurdle|Tamriel Trade Secrets|86, 102|[35m|TTC|6
+HISTORY|1789475905|Sold|1000|1|214309|Harvested Soul Fragment||@Halloween.1744, @ExplicitDips|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[35m|TTC|4
+HISTORY|1789801311|Sold|200|1|45347|Ancestor Silk Robe||@IndyBart, @Jooshie27, @Starbuxslayer, @poodurdle|Tamriel Trade Secrets|86, 102|[33m|TTC|16
+HISTORY|1790007082|Sold|54000|4|54177|Dreugh Wax|@RangerDelk|@xBASURAx, @KYOCHENG26|Tamriel Trade Secrets||[33m|ESO-Hub|2
+HISTORY|1789033348|Sold|350|1|156617|Crafting Motif 81: New Moon Priest Legs||@poodurdle|Tamriel Trade Secrets|86, 102|[35m|TTC|9
+HISTORY|1789000707|Sold|250|1|45673|Recipe: Parrot-and-Pumpkin Salad||@MineCraftRoyal, @poodurdle|Anti-Social Trading Guild, Tamriel Trade Secrets|100, 102|[35m|TTC|2
+HISTORY|1789341162|Sold|1000|1|212096|Crafting Motif 132: Stirk Fellowship Shoulders||@belllyache|Anti-Social Trading Guild|96, 21|[35m|TTC|2
+HISTORY|1789088302|Sold|250|1|54512|Platinum Necklace||@Artimus8807, @Jumbojoe77|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[97m|TTC|2
+HISTORY|1788983602|Sold|650|1|76884|Crafting Motif 34: Assassins League Daggers||@poodurdle|Tamriel Trade Secrets|86, 102|[35m|TTC|3
+HISTORY|1789445864|Sold|250|1|45356|Rubedo Leather Jack||@ZRETT, @Jumbojoe77|Anti-Social Trading Guild|96, 21|[33m|TTC|2
+HISTORY|1789363237|Sold|250|1|45346|Rubedite Girdle||@Intricate_Skooma, @ZRETT, @mao333|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 96, 102|[35m|TTC|4
+HISTORY|1789521764|Sold|4000|1|139657|Exemplary Bloodthirsty Ring||@Sycoseas, @Nommao|Tamriel Trade Secrets|86, 102|[35m|TTC|2
+HISTORY|1789801315|Sold|200|1|45348|Ancestor Silk Shoes||@Guylords, @Jooshie27, @Mr.Grog, @wouizer, @poodurdle|Anti-Social Trading Guild, Tamriel Trade Secrets|96, 86, 52, 102|[33m|TTC|23
+HISTORY|1789416979|Sold|4000|1|219849|Unidentified Blacksmith Survey Report||@Redkoolaiidz, @celeste.lavie|Anti-Social Trading Guild, Tamriel Trade Secrets|96, 102|[36m|TTC|2
+HISTORY|1788972129|Listed|2000|200|42872|Insect Parts, River Bait||@Avalon_Centrifuge, @Sabel_Kitty|Imperial Gold Reserve, Tamriel Trade Secrets|9, 102|[97m|TTC|14
+HISTORY|1788972129|Listed|11000|200|42869|Worms, Saltwater Bait||@Avalon_Centrifuge, @Sabel_Kitty|Imperial Gold Reserve, Tamriel Trade Secrets|9, 102|[97m|TTC|4
+HISTORY|1789363409|Sold|50000|1|167963|Crafting Motif 96: Arkthzand Armory Boots||@belllyache, @rhimesrhizzo|Anti-Social Trading Guild|0, 21|[35m|TTC|2
+HISTORY|1789074386|Sold|81|1|45354|Ancestor Silk Sash||@Jooshie27, @rsns|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[33m|TTC|3
+HISTORY|1789474861|Sold|2000|200|64502|Sanded Ruby Ash||@Unhappy_Bagel, @Zan'Raht|Tamriel Trade Secrets, Anti-Social Trading Guild|21|[97m|TTC|4
+HISTORY|1789857894|Listed|1025|1|76885|Crafting Motif 34: Assassins League Gloves|||Bacon Rats, Metrobank||[35m|TTC|50
+HISTORY|1789857894|Listed|622|1|140445|Crafting Motif 63: Dremora Axes|||Bacon Rats, Metrobank||[35m|TTC|50
+HISTORY|1789857894|Listed|326|1|140450|Crafting Motif 63: Dremora Daggers|||Bacon Rats, Metrobank||[35m|TTC|50
+HISTORY|1789092159|Sold|4000|1|204872|Style Page: Lion Guard Captain Gauntlets||@SteeJans91, @TheMorning-Star|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[33m|TTC|2
+HISTORY|1789743776|Sold|80000|8|54173|Tempering Alloy||@SodaDreams, @IndyBart, @Furtasia, @sgDeity|Anti-Social Trading Guild, Tamriel Trade Secrets|90, 86, 102|[33m|TTC|24
+HISTORY|1788970170|Sold|2000|200|42872|Insect Parts, River Bait||@Sabel_Kitty|Tamriel Trade Secrets|86, 102|[97m|TTC|12
+HISTORY|1788994185|Sold|50000|10|45854|Kuta||@IndyBart, @C6H8O6, @celeste.lavie|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 102|[33m|TTC|12
+HISTORY|1789003499|Sold|33998|200|135145|Platinum Dust||@Mythic-Shadow|Tamriel Trade Secrets|86, 102|[97m|TTC|11
+HISTORY|1789510672|Sold|7999|1|54484|Truly Superb Glyph of Weapon Damage||@ggorton3|Tamriel Trade Secrets|86, 102|[33m|TTC|5
+HISTORY|1789505586|Sold|138|1|45345|Rubedite Pauldron||@rsns, @lemonbalm|Anti-Social Trading Guild, Tamriel Trade Secrets|64, 102|[33m|TTC|2
+HISTORY|1789336476|Sold|9000|1|170143|Crafting Motif 98: House Hexos Shoulders||@Elder_Bob, @belllyache|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[35m|TTC|2
+HISTORY|1788980240|Sold|6999|1|26580|Truly Superb Glyph of Health||@ggorton3|Tamriel Trade Secrets|86, 102|[33m|TTC|3
+HISTORY|1789739971|Sold|7299|1|26587|Truly Superb Glyph of Poison||@ggorton3|Tamriel Trade Secrets|86, 102|[33m|TTC|9
+HISTORY|1788980232|Sold|6299|1|26589|Truly Superb Glyph of Stamina Recovery||@ggorton3|Tamriel Trade Secrets|86, 102|[33m|TTC|5
+HISTORY|1789739965|Sold|6999|1|26848|Truly Superb Glyph of Flame||@ggorton3|Tamriel Trade Secrets|86, 102|[33m|TTC|8
+HISTORY|1788997466|Sold|11000|200|71198|Rubedite Ore||@guantou, @Chalindrea|Anti-Social Trading Guild, Tamriel Trade Secrets|102|[97m|TTC|11
+HISTORY|1789024887|Sold|14000|200|71198|Rubedite Ore||@Tsuki.yo, @Chalindrea|Anti-Social Trading Guild, Tamriel Trade Secrets|102|[97m|TTC|3
+HISTORY|1788970571|Sold|10000|200|71198|Rubedite Ore||@IndyBart, @Iddylion|Tamriel Trade Secrets, Anti-Social Trading Guild|86, 21|[97m|TTC|2
+HISTORY|1789739948|Sold|7499|1|45883|Truly Superb Glyph of Increase Physical Harm||@ggorton3|Tamriel Trade Secrets|86, 102|[33m|TTC|4
+HISTORY|1789785954|Sold|6799|1|26588|Truly Superb Glyph of Stamina||@ggorton3|Tamriel Trade Secrets|86, 102|[33m|TTC|6
+HISTORY|1789743668|Sold|4526|4|54181|Rosin||@RangerDelk|Tamriel Trade Secrets|86, 102|[33m|TTC|4
+HISTORY|1789533431|Sold|7614|1|45884|Truly Superb Glyph of Increase Magical Harm||@ggorton3|Tamriel Trade Secrets|86, 102|[33m|TTC|8
+HISTORY|1789363330|Sold|678|1|138797|Platinum Necklace||@BelovedBelle|Tamriel Trade Secrets|86, 102|[33m|TTC|2
+HISTORY|1788894163|Sold|7299|1|26587|Truly Superb Glyph of Poison|@ggorton3|@Ighrek|Tamriel Trade Secrets||[33m|ESO-Hub|1
+HISTORY|1788895261|Sold|900|1|97013|Unknown Item (97013)|@SillyKitty25|@Stumpy|Tamriel Trade Secrets||[97m|ESO-Hub|1
+HISTORY|1788895801|Sold|2950|1|217921|Unknown Provisioning Writ|@Rujuk75|@Aussiebb1|Anti-Social Trading Guild||[35m|ESO-Hub|1
+HISTORY|1789857894|Listed|82000|1|199067|Style Page: Bristleback Hunter Jack||@APHONlC|Tamriel Trade Secrets, Anti-Social Trading Guild|21, 102, 96|[33m|TTC|36
+HISTORY|1789857894|Listed|1125|1|124673|Sixth House Tailor's Bell||@APHONlC|Tamriel Trade Secrets|102|[35m|TTC|18
+HISTORY|1789857894|Listed|1072|1|124672|Sixth House Ornamental Fasteners||@APHONlC|Tamriel Trade Secrets|102|[35m|TTC|18
+HISTORY|1789857894|Listed|6035|5|147659|Joke Popper Parts|||Tamriel Trade Secrets|102|[36m|TTC|17
+HISTORY|1788974575|Sold|48000|8|45854|Kuta||@IndyBart|Tamriel Trade Secrets|102|[33m|TTC|5
+HISTORY|1788968353|Sold|11000|200|42869|Worms, Saltwater Bait||@Sabel_Kitty|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788973048|Sold|40000|4|151687|Elsweyr Couch, Wooden||@FerrariRace|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1788973318|Sold|6000|1|134687|Snake Fang||@FerrariRace|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788969959|Sold|2499|1|139657|Exemplary Bloodthirsty Ring||@Aruk12|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788968929|Sold|16000|1|123500|Coward's Gear Lightning Staff||@Chauncey_13|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788969201|Sold|7800|1|175848|Companion's Gloves||@dustpuddle|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788970361|Sold|2374|1|176599|Companion's Ring||@Coremelder|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788967629|Sold|4000|1|147728|Crafting Motif 74: Pellitine Swords||@Ace.8|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788968720|Sold|730|2|114895|Heartwood||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788969084|Sold|2800|4|30164|Columbine||@Iddylion|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788968721|Sold|70|2|46151|Daedra Heart||@Iddylion|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788974790|Sold|9000|1|139662|Exemplary Harmony Necklace||@ASTGBANK|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972123|Sold|240|1|57035|Recipe: Whiskey Sour||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972124|Sold|270|1|57022|Recipe: Vivec's Gingergreen Chai||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972141|Sold|699|1|45693|Recipe: Minotaur Slumgullion||@Sebzio|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Sold|599|1|45597|Recipe: Cornerclub Kaveh||@Sebzio|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|50|2|44879|Equipment Repair Kit||@AncientVampire|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|4000|100|68253|Longfin Pasty with Melon Sauce||@Azazel-lich|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|35000|1|184906|Lightning Staff of the Order's Wrath||@Azazel-lich|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|7000|1|184904|Inferno Staff of the Order's Wrath||@Azazel-lich|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|15000|1|180212|Hexos' Ward Jack||@belllyache|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|10000|1|160505|Crafting Motif 84: Blackreach Vanguard Shoulders||@belllyache|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|1000|1|74565|Crafting Motif 33: Thieves Guild Maces||@belllyache|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|25000|1|219685|Blueprint: Tide-Born Wall, Curved Boma||@belllyache|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|2500|1|167359|Praxis: Solitude Walkway, Stone||@belllyache|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|2500|1|171786|Praxis: Markarth Wall, Wide Stone||@belllyache|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|50|1|182943|Design: Fargrave Fish Pile, Deadlands Trout||@belllyache|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|50|1|118990|Blueprint: High Elf Dresser, Sturdy||@belllyache|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|2500|1|211009|Blueprint: Colovian Floor, Small Dual-Sided||@belllyache|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|138|1|45299|Rubedite Mace||@rsns|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1788972129|Listed|171|1|45340|Rubedite Cuirass||@rsns|Anti-Social Trading Guild|21|[35m|TTC|2
+HISTORY|1788972129|Listed|25|1|116095|Pattern: Khajiit Banner, Claw||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|70|1|45657|Recipe: Monkeypig Cutlets||@Scoiataellem|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|70|1|119009|Praxis: Orcish Bedding, Stone||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|380|1|45959|Recipe: Mammoth Snout Pie||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|800|1|139612|Sketch: Alinor Goblet, Silver Plain||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|14200|1|204752|Dawnwood Serving Fork, Bone||@Scoiataellem|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|2300|100|44879|Equipment Repair Kit||@Sebzio|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|3499|1|203526|Style Page: Ayleid Lich Jerkin||@Sebzio|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1788972129|Listed|5999|1|171917|Crafting Motif 102: Sul-Xan Chests||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|4999|1|171919|Crafting Motif 102: Sul-Xan Gloves||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|4999|1|171918|Crafting Motif 102: Sul-Xan Daggers||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|150|3|77584|Spider Egg||@Marcoz|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|130|2|114890|Bast||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|30|2|135158|Pulverized Cobalt||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|210|4|135160|Pulverized Zinc||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|15|2|23173|Sapphire||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|9|1|4442|Emerald||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|12|3|23219|Diamond||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|3800|5|77581|Torchbug Thorax||@WordCat1213|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|9|3|4456|Quartz||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|1400|200|23122|Sanded Hickory||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|1500|200|23100|Thick Leather||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|320|1|114892|Mundane Rune||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|730|2|114895|Heartwood||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|600|3|114889|Regulus||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|1799|1|139661|Exemplary Swift Necklace||@Sofuzz|Anti-Social Trading Guild|21|[35m|TTC|2
+HISTORY|1788972129|Listed|4275|1|198495|Praxis: Apocrypha Bookcase, Large Intricate||@Sofuzz|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|3333|1|198529|Praxis: Necrom Wind Chimes, Stone||@Sofuzz|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|65225|1|203345|Praxis: Apocrypha Doorway, Stone||@Sofuzz|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|7000|200|64489|Rubedite Ingot||@albai06|Anti-Social Trading Guild|21|[97m|TTC|21
+HISTORY|1788972129|Listed|10000|1|45883|Truly Superb Glyph of Increase Physical Harm||@Dorsidhion81|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1788972129|Listed|150|1|43536|Electrum Ring of Reduce Feat Cost||@Jumbojoe77|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|240|1|45299|Rubedite Mace||@Jumbojoe77|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1788972129|Listed|18000|1|57705|Exemplary Nirnhoned Bow||@Jumbojoe77|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|142000|200|30164|Columbine||@TheHorseThatWentNay|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|3500|1|71691|Crafting Motif 25: Aldmeri Dominion Boots||@TheHorseThatWentNay|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|260000|100|150671|Dragon Rheum||@TheHorseThatWentNay|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|220000|100|150731|Dragon's Blood||@TheHorseThatWentNay|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|9500|1|217922|Unknown Alchemy Writ||@Karikah|Anti-Social Trading Guild|21|[35m|TTC|2
+HISTORY|1788972129|Listed|2600|1|138814|Research Scroll, Jewelry Crafting, 1 Day||@Karikah|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1788972129|Listed|3000|2|225219|Shard of Parched Stone||@Karikah|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|24|1|176275|Companion's Ring||@MacBites|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|30|1|177010|Companion's Hat||@MacBites|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|36|1|177011|Companion's Jerkin||@MacBites|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|270|15|33735|Sweet Scented Infusion||@eightballfracture|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|6000|1|225216|Indecipherable Sai Note||@Dariozz|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|444|1|116174|Blueprint: Nord Bookcase, Short Alcove||@AcidNorAlkaline|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|888|1|119423|Blueprint: Keg||@AcidNorAlkaline|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|555|1|116065|Blueprint: Dark Elf End Table, Angled||@AcidNorAlkaline|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|200|100|96955|Disposable Swallower's Sword||@ASTGBANK|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|9000|1|139662|Exemplary Harmony Necklace||@ASTGBANK|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|9000|1|139656|Exemplary Harmony Ring||@ASTGBANK|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|12000|1|64719|Crafting Motif 19: Mercenary Bows||@ASTGBANK|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|125000|1|159691|Style Page: Scourge Harvester Shoulder||@ASTGBANK|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1788972129|Listed|3|1|44812|Sip of Ravage Health||@Bunny_Psycho|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|12|4|76842|Savagery-Draining Poison II||@Bunny_Psycho|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|5|1|26580|Truly Superb Glyph of Health||@Bunny_Psycho|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1788972129|Listed|264|44|81196|Cloudy Hindering Poison III||@Bunny_Psycho|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|500|68|81195|Cloudy Gradual Ravage Health Poison III||@Bunny_Psycho|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|180|24|81194|Cloudy Damage Health Poison III||@Bunny_Psycho|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|144|16|81196|Cloudy Hindering Poison III||@Bunny_Psycho|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|72|8|81194|Cloudy Damage Health Poison III||@Bunny_Psycho|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|180|20|81194|Cloudy Damage Health Poison III||@Bunny_Psycho|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|20|1|43555|Full-Leather Belt||@Bunny_Psycho|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|630|18|27114|Pact Firepot Trebuchet||@WanderingConqueror|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|444|6|27971|Pact Firebolt Ballista||@WanderingConqueror|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|1480|20|27971|Pact Firebolt Ballista||@WanderingConqueror|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|57|1|115742|Praxis: Argonian Pan, Frying||@rhimesrhizzo|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|27|1|151985|Blueprint: Elsweyr Bowl, Simple||@rhimesrhizzo|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|40000|1|96993|Jack of Mother's Embrace||@Chauncey_13|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|18000|1|69386|Necklace of Agility||@Chauncey_13|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|16000|1|123500|Coward's Gear Lightning Staff||@Chauncey_13|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|17000|1|180851|Hrothgar's Maul||@Chauncey_13|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|15000|1|43022|Kagouti Slayer Medallion of Mother's Sorrow||@Chauncey_13|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|80000|1|184806|Ring of the Order's Wrath||@Chauncey_13|Anti-Social Trading Guild|21|[97m|TTC|2
+HISTORY|1788972129|Listed|15000|1|184807|Amulet of the Order's Wrath||@Chauncey_13|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|80000|1|184807|Amulet of the Order's Wrath||@Chauncey_13|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|333333|1|225208|Recipe: Granny's Eel Pie||@mlp1203|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1788972129|Listed|999|200|75365|Alkahest||@Spartacus621|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|2990|200|64502|Sanded Ruby Ash||@Spartacus621|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|3900|200|64489|Rubedite Ingot||@Spartacus621|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|5999|200|33255|Moonstone||@Spartacus621|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|6900|200|203632|Iridium Plating||@Spartacus621|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|7900|200|33253|Obsidian||@Spartacus621|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|900|20|114891|Clean Pelt||@Spartacus621|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|10900|200|64504|Ancestor Silk||@Spartacus621|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|1100|20|135161|Ochre||@Spartacus621|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|1119|1|225216|Indecipherable Sai Note||@NIGHT-M0THER|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|75|1|115918|Blueprint: Breton Dresser, Open||@NIGHT-M0THER|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|55|1|45972|Recipe: Clarified Syrah Wine||@Kotchinha|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|18000|1|198513|Praxis: Apocrypha Wardrobe, Spiked||@tmacedo|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|38000|1|223959|Crafting Motif 137: Koldane Cartel Shoulders||@tmacedo|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|27000|1|223957|Crafting Motif 137: Koldane Cartel Maces||@tmacedo|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|400|40|27057|Cheese||@Iddylion|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|70|2|46151|Daedra Heart||@Iddylion|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|3000|61|64501|Lorkhan's Tears||@Iddylion|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|400|6|30149|Stinkhorn||@Iddylion|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|500|7|27059|Bervez Juice||@Iddylion|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|2800|4|30164|Columbine||@Iddylion|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1788972129|Listed|5000|15|114892|Mundane Rune||@Iddylion|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|2700|1|203633|Zircon Plating||@Iddylion|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|48|1|176323|Companion's Ice Staff||@StarRavenSAT|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1788972129|Listed|5|1|176041|Essence of Potent Health||@StarRavenSAT|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|1309|1|74564|Crafting Motif 33: Thieves Guild Legs||@woodseab14_ESO|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|11000|1|166855|Diagram: Solitude Hand Mirror, Ornate||@woodseab14_ESO|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1788972129|Listed|3000|1|57577|Crafting Motif 15: Dwemer Chests||@woodseab14_ESO|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|23000|1|223949|Crafting Motif 137: Koldane Cartel Belts||@woodseab14_ESO, @MrNobodyNZ|Anti-Social Trading Guild, Tamriel Trade Secrets|21, 102|[35m|TTC|2
+HISTORY|1788972129|Listed|1100|1|74561|Crafting Motif 33: Thieves Guild Daggers||@woodseab14_ESO|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|23500|1|223960|Crafting Motif 137: Koldane Cartel Staves||@woodseab14_ESO|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1788972129|Listed|25|1|68195|Recipe: Hearty Garlic Corn Chowder||@Starbuxslayer|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|75|1|119018|Blueprint: Orcish Counter, Block||@Starbuxslayer|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|75|1|119002|Pattern: High Elf Carpet, Rustic||@Starbuxslayer|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|75|1|115725|Design: Argonian Snakes on a Rope||@Starbuxslayer|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|100000|1|225103|Blueprint: Completed Bounty, Framed Breton Man||@Fauchsil|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1788972129|Listed|2000|100|27038|Essence of Stamina||@deadbeforedeath|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1788972129|Listed|11972|200|30165|Nirnroot||@Mythic-Shadow|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|12431|200|30162|Dragonthorn||@Mythic-Shadow|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|14957|200|30161|Corn Flower||@Mythic-Shadow|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|15196|200|30157|Blessed Thistle||@Mythic-Shadow|Tamriel Trade Secrets|102|[32m|TTC|2
+HISTORY|1788972129|Listed|15576|200|30159|Wormwood||@Mythic-Shadow|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|7981|100|30153|Namira's Rot||@Mythic-Shadow|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|799|10|135161|Ochre||@Mythic-Shadow|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788972129|Listed|21788|200|71200|Raw Ancestor Silk||@Mythic-Shadow|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788972129|Listed|35991|200|30163|Mountain Flower||@Mythic-Shadow|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|12990|200|30158|Lady's Smock||@Mythic-Shadow|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|99980|200|114895|Heartwood||@Mythic-Shadow|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788972129|Listed|10000|200|30162|Dragonthorn||@Lori_GamerBro|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|6000|1|139409|Dawn-Prism||@Lori_GamerBro, @SeekUp|Tamriel Trade Secrets|102|[97m|TTC|12
+HISTORY|1788972129|Listed|3000|1|225210|Red Lichen||@Lori_GamerBro|Tamriel Trade Secrets|102|[35m|TTC|3
+HISTORY|1788972129|Listed|5500|1|56862|Fortified Nirncrux||@Lori_GamerBro|Tamriel Trade Secrets|102|[35m|TTC|2
+HISTORY|1788972129|Listed|9000|10|139019|Powdered Mother of Pearl||@Lori_GamerBro|Tamriel Trade Secrets|102|[32m|TTC|3
+HISTORY|1788972129|Listed|116999|1|211059|Crafting Motif 130: Exile's Revenge Chests||@LordAter|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788972129|Listed|8999|1|176923|Companion's Ring||@LordAter|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788972129|Listed|22500|5|182553|Stendarr Stamp||@SeekUp|Tamriel Trade Secrets|102|[97m|TTC|2
+HISTORY|1788972129|Listed|17500|5|151621|Shimmering Sand||@SeekUp|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788972129|Listed|60000|1|171433|Mourning Dew||@SeekUp|Tamriel Trade Secrets|102|[33m|TTC|3
+HISTORY|1788972129|Listed|232|8|54179|Turpen||@Jaliva|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1788972129|Listed|248|8|64501|Lorkhan's Tears||@Jaliva|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788972129|Listed|6404|98|71198|Rubedite Ore||@Jaliva|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788972129|Listed|4500|1|175841|Companion's Hat||@frenzie357|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788972129|Listed|2500|1|225220|Bitten Chew Bone||@frenzie357|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788972129|Listed|2499|1|139657|Exemplary Bloodthirsty Ring||@Aruk12|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788972129|Listed|10000|1|219850|Unidentified Clothier Survey Report||@DragonWhimsy|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1788972129|Listed|8200|1|184889|Jack of the Order's Wrath||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|2
+HISTORY|1788972129|Listed|7900|1|184892|Helmet of the Order's Wrath||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788972129|Listed|7800|1|184893|Guards of the Order's Wrath||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|2
+HISTORY|1788972129|Listed|9100|1|184891|Bracers of the Order's Wrath||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|2
+HISTORY|1788972129|Listed|9300|1|184890|Boots of the Order's Wrath||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|2
+HISTORY|1788972129|Listed|7400|1|184895|Belt of the Order's Wrath||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|2
+HISTORY|1788972129|Listed|9200|1|184894|Arm Cops of the Order's Wrath||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|2
+HISTORY|1788972129|Listed|5000|1|160585|Crafting Motif 87: Ancestral Nord Legs||@MidnightOfRain|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788972129|Listed|28|1|68193|Recipe: Thrice-Baked Gorapple Pie||@probablewitch|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|80000|30|207970|Mosaic Skill Shred||@Capo4syn|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788972129|Listed|2500|1|96864|Cuirass of the Wyrd Tree||@MrNobodyNZ|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1788972129|Listed|3000|1|219429|Coup De Grâce Dagger||@MrNobodyNZ|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1788972129|Listed|5000|1|72957|Cuirass of Syvarra's Scales||@MrNobodyNZ|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788972129|Listed|5000|1|114743|Lightning Staff of Syvarra's Scales||@MrNobodyNZ|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1788972129|Listed|5000|1|98970|Swamp Raider's Dagger||@MrNobodyNZ|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1788972129|Listed|1500|1|224374|Ring of the Gorethief||@MrNobodyNZ|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|11000|200|71198|Rubedite Ore||@Chalindrea|Tamriel Trade Secrets|102|[97m|TTC|8
+HISTORY|1788972129|Listed|4000|200|26802|Frost Mirriam||@Sabel_Kitty|Tamriel Trade Secrets|102|[36m|TTC|4
+HISTORY|1788972129|Listed|40|1|115917|Blueprint: Breton Rack, Barrel||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|50|1|115928|Design: Breton Vase, Ceramic||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|125|1|151995|Design: Elsweyr Spice Display, Matcha Green||@poodurdle|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|350|1|156617|Crafting Motif 81: New Moon Priest Legs||@poodurdle|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788972129|Listed|250|1|156715|Southern Elsweyr Treasure Map II||@poodurdle|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1788972129|Listed|13000|200|30159|Wormwood||@tsgorton|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|33000|1|223949|Crafting Motif 137: Koldane Cartel Belts||@Lagtency|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788972129|Listed|17799|1|56032|Iron Dagger||@ggorton3|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788972129|Listed|6299|1|26589|Truly Superb Glyph of Stamina Recovery||@ggorton3|Tamriel Trade Secrets|102|[33m|TTC|2
+HISTORY|1788972129|Listed|7299|1|26587|Truly Superb Glyph of Poison||@ggorton3|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1788972129|Listed|15000|200|33271|Soul Gem||@Gretkins|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788972129|Listed|1800|150|46141|Sanded Mahogany||@Gretkins|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788972129|Listed|105999|1|147512|Deadly Ring||@BaronSalmon|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789059702|Sold|2700|1|203633|Zircon Plating||@Iddylion|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789573124|Sold|200|1|223160|Worm Cult Carving, Eye||@Capo4syn|Tamriel Trade Secrets|102|[36m|TTC|3
+HISTORY|1789054370|Sold|4000|1|204869|Style Page: Lion Guard Captain Greaves||@Capo4syn|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789006340|Sold|7000|1|176592|Companion's Bracers||@Capo4syn|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788980773|Sold|10000|1|170143|Crafting Motif 98: House Hexos Shoulders||@Capo4syn|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789039403|Sold|199|1|45884|Truly Superb Glyph of Increase Magical Harm||@parsonsjd64|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789039403|Sold|199|1|45886|Superb Glyph of Decrease Spell Harm||@parsonsjd64|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1788981949|Sold|799|1|214522|Three Queens Ring||@parsonsjd64|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789018383|Sold|5000|1|114743|Lightning Staff of Syvarra's Scales||@MrNobodyNZ|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789008151|Sold|8000|1|68495|Briarheart Guards||@MrNobodyNZ|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789005612|Sold|10000|1|125845|Impregnable Armor Lightning Staff||@MrNobodyNZ|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1788990974|Sold|1500|1|224374|Ring of the Gorethief||@MrNobodyNZ|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789048404|Sold|4039|1|74548|Crafting Motif 32: Abah's Watch Legs||@MossyFrog|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789048391|Sold|2539|1|71726|Crafting Motif 27: Ebonheart Pact Daggers||@MossyFrog|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789014151|Sold|953|1|155215|Dragonguard Elite's Ring||@MossyFrog|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789033387|Sold|1039|1|212097|Crafting Motif 132: Stirk Fellowship Staves||@MossyFrog|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789039404|Sold|200|1|26845|Superb Glyph of Crushing||@mao333|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1788993400|Sold|275|1|45341|Rubedite Sabatons||@mao333|Tamriel Trade Secrets|102|[33m|TTC|2
+HISTORY|1789039405|Sold|200|1|26588|Truly Superb Glyph of Stamina||@mao333|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789039402|Sold|183|1|26848|Truly Superb Glyph of Flame||@mao333|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1788993406|Sold|253|1|45298|Rubedite Axe||@mao333|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789797487|Sold|250|1|45870|Truly Superb Glyph of Reduce Spell Cost||@mao333|Tamriel Trade Secrets|102|[33m|TTC|2
+HISTORY|1789039405|Sold|200|1|26591|Superb Glyph of Weakening||@mao333|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1788994284|Sold|4999|1|124689|Crafting Motif 48: Ashlander Maces||@Cwibacca|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789010732|Sold|6000|1|139409|Dawn-Prism||@SeekUp, @Lori_GamerBro|Tamriel Trade Secrets|102|[97m|TTC|8
+HISTORY|1789057808|Sold|17500|5|151621|Shimmering Sand||@SeekUp|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788981910|Sold|8888|1|122769|Warrior-Poet's Greaves||@RestfulTester|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788989485|Sold|3000|1|225210|Red Lichen||@Lori_GamerBro|Tamriel Trade Secrets|102|[35m|TTC|3
+HISTORY|1789015759|Sold|5500|1|56862|Fortified Nirncrux||@Lori_GamerBro|Tamriel Trade Secrets|102|[35m|TTC|2
+HISTORY|1789015756|Sold|14000|1|56863|Potent Nirncrux||@Lori_GamerBro|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789014163|Sold|1200|1|139660|Exemplary Infused Necklace||@Lori_GamerBro|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788988935|Sold|6100|1|176770|Companion's Guards||@Foosboy|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789018373|Sold|14410|1|223698|Worm-Touched Soul Gem||@RangerDelk|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788979808|Sold|3000|1|137951|Vitrified Malondo||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789063690|Sold|8200|1|184889|Jack of the Order's Wrath||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788981898|Sold|7800|1|184893|Guards of the Order's Wrath||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789747453|Sold|17799|1|56033|Maple Bow||@ggorton3|Tamriel Trade Secrets|102|[97m|TTC|2
+HISTORY|1789749416|Sold|17799|1|56027|Iron Mace||@ggorton3|Tamriel Trade Secrets|102|[97m|TTC|2
+HISTORY|1789495973|Sold|17799|1|56034|Maple Inferno Staff||@ggorton3|Tamriel Trade Secrets|102|[97m|TTC|2
+HISTORY|1789749393|Sold|17799|1|56026|Iron Axe||@ggorton3|Tamriel Trade Secrets|102|[97m|TTC|2
+HISTORY|1789017261|Sold|300|1|214309|Harvested Soul Fragment||@probablewitch|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788994694|Sold|30000|200|135145|Platinum Dust||@celeste.lavie|Tamriel Trade Secrets|102|[97m|TTC|23
+HISTORY|1788994368|Sold|80000|10|54177|Dreugh Wax||@celeste.lavie|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1788989869|Sold|2000|200|64504|Ancestor Silk||@celeste.lavie|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788978064|Sold|76600|200|77589|Scrib Jelly||@AudibleBasekick|Tamriel Trade Secrets|102|[32m|TTC|3
+HISTORY|1789005242|Sold|32000|2|156765|Chair, Love-Blessed||@frayed.knot|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788980239|Sold|6800|1|26588|Truly Superb Glyph of Stamina||@frayed.knot|Tamriel Trade Secrets|102|[33m|TTC|5
+HISTORY|1789008159|Sold|4000|1|71304|Briarheart Collar||@frayed.knot|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788978061|Sold|3500|10|77589|Scrib Jelly||@stoppingsound|Tamriel Trade Secrets|102|[32m|TTC|4
+HISTORY|1788983336|Sold|3200|1|217917|Unknown Blacksmithing Writ||@stoppingsound|Tamriel Trade Secrets|102|[35m|TTC|2
+HISTORY|1788981918|Sold|2000|1|97294|Shield of a Mother's Sorrow||@Halloween.1744|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789052649|Sold|5000|1|139657|Exemplary Bloodthirsty Ring||@frenzie357|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789047811|Sold|3000|1|224595|Ice Staff of the Gorethief||@PolarPotato|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788980762|Sold|8999|1|170142|Crafting Motif 98: House Hexos Shields||@Isham_Mhael|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788984001|Sold|8999|1|176923|Companion's Ring||@LordAter|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788998043|Sold|3000|1|224448|Sword of the Gorethief||@redcoAt12|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789062478|Sold|1500|1|219486|Unflinching Ultimate Ring||@redcoAt12|Tamriel Trade Secrets|102|[32m|TTC|2
+HISTORY|1789014170|Sold|12990|200|30158|Lady's Smock||@Mythic-Shadow|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789011999|Sold|11298|200|30166|Water Hyacinth||@Mythic-Shadow|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788995486|Sold|21788|200|71200|Raw Ancestor Silk||@Mythic-Shadow|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789005249|Sold|90000|1|145478|Alinor Shrine, Y'ffre||@SteeJans91|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789010324|Sold|31000|1|120820|Sigil, Mara||@SteeJans91|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789819222|Sold|31000|1|120822|Sigil, Zenithar||@SteeJans91|Tamriel Trade Secrets|102|[35m|TTC|2
+HISTORY|1789005253|Sold|31000|1|120821|Sigil, Stendarr||@SteeJans91|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788994378|Sold|21000|30|54181|Rosin||@Sabel_Kitty|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789025157|Sold|40|1|115917|Blueprint: Breton Rack, Barrel||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789010738|Sold|1545|103|203631|Terne Plating||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788994109|Sold|117600|49|203633|Zircon Plating||@Sabel_Kitty|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788994191|Sold|719100|94|54177|Dreugh Wax||@Sabel_Kitty|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1788994081|Sold|10600|106|54180|Mastic||@Sabel_Kitty|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789061841|Sold|102000|17|139413|Dibellium||@Sabel_Kitty|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788994141|Sold|159200|199|77591|Mudcrab Chitin||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788994072|Sold|16000|200|54176|Elegant Lining||@Sabel_Kitty|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789061809|Sold|6000|24|135155|Cobalt||@Sabel_Kitty|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1788994115|Sold|77600|97|139019|Powdered Mother of Pearl||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788994076|Sold|17000|200|54172|Grain Solvent||@Sabel_Kitty|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788994091|Sold|119600|184|30164|Columbine||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788994184|Sold|75000|15|45854|Kuta||@Sabel_Kitty|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789014163|Sold|500|10|150789|Dragon's Bile||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789011382|Sold|60000|25|150671|Dragon Rheum||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789010743|Sold|2574|117|203632|Iridium Plating||@Sabel_Kitty|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1788994080|Sold|20000|200|54180|Mastic||@Sabel_Kitty|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788994077|Sold|7820|92|54172|Grain Solvent||@Sabel_Kitty|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788994087|Sold|90000|9|203634|Chromium Plating||@Sabel_Kitty|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1788994073|Sold|11440|143|54176|Elegant Lining||@Sabel_Kitty|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789010742|Sold|4400|200|203632|Iridium Plating||@Sabel_Kitty|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789010737|Sold|3000|200|203631|Terne Plating||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788994084|Sold|60000|30|150731|Dragon's Blood||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789048380|Sold|2500|1|74542|Crafting Motif 32: Abah's Watch Boots||@poodurdle|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788980760|Sold|6600|1|167953|Crafting Motif 95: Nighthollow Maces||@poodurdle|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789000708|Sold|325|1|45713|Recipe: Ultimate Riverhold Beef Pasty||@poodurdle|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789004151|Sold|6500|1|171594|Crafting Motif 99: Waking Flame Swords||@poodurdle|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789054888|Sold|1900|1|224687|Style Page: Alessian Rebel Boots||@poodurdle|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789404755|Sold|500|1|225219|Shard of Parched Stone||@poodurdle|Tamriel Trade Secrets|102|[35m|TTC|2
+HISTORY|1789008255|Sold|7249|1|224372|Ring of the Gorethief||@Aruk12|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1788981954|Sold|9249|1|224373|Amulet of the Gorethief||@Aruk12|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1788993390|Sold|199|1|45360|Rubedo Leather Guards||@Aruk12|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789001960|Sold|9000|50|54180|Mastic||@BLTNJ|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788980773|Sold|10000|1|82099|Crafting Motif 40: Order Hour Shoulders||@Frozen_Eagle|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788994066|Sold|60250|1|175921|Blueprint: Leyawiin Cupboard, Formal Display||@SeverianMithgar|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1788993392|Sold|220|1|45342|Rubedite Gauntlets||@YourRivalGary|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789073633|Sold|113|1|27244|Crafting Motif 4: Nord Style||@Kaiberious777|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789113913|Sold|500|1|132866|Mad Tinkerer's Hat||@Dorsidhion81|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789127420|Sold|200|1|46001|Recipe: Thrassian Chai||@Dorsidhion81|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789096725|Sold|10000|1|45883|Truly Superb Glyph of Increase Physical Harm||@Dorsidhion81|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789074513|Sold|400|1|118267|Painting of Autumn, Bolted||@Dorsidhion81|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789073604|Sold|50|2|44879|Equipment Repair Kit||@AncientVampire|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789096438|Sold|1000|1|74561|Crafting Motif 33: Thieves Guild Daggers||@AncientVampire|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789096502|Sold|1600|1|69165|Ring of Endurance||@Udielo|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789097745|Sold|800|1|219275|Spellshredder Sash||@Udielo|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789127396|Sold|12|3|23219|Diamond||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789127395|Sold|9|3|4456|Quartz||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789127400|Sold|15|2|23173|Sapphire||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789127394|Sold|9|1|4442|Emerald||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789098584|Sold|31200|12|224681|Unopened Treasure Map||@Sofuzz|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789073230|Sold|6400|1|171590|Crafting Motif 99: Waking Flame Maces||@Sofuzz|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789093056|Sold|9000|1|194516|Crafting Motif 122: Dead Keeper Boots||@Unoriginal_Daisy|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789073216|Sold|4500|1|194520|Crafting Motif 122: Dead Keeper Gloves||@Unoriginal_Daisy|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789073221|Sold|5500|1|194517|Crafting Motif 122: Dead Keeper Bows||@Unoriginal_Daisy|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789093015|Sold|11500|1|194521|Crafting Motif 122: Dead Keeper Helmets||@Unoriginal_Daisy|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789088266|Sold|142000|200|30164|Columbine||@TheHorseThatWentNay|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789073226|Sold|6000|1|130024|Crafting Motif 52: Redoran Swords||@TheHorseThatWentNay|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789072161|Sold|3000|1|82027|Crafting Motif 42: Hollowjack Chests||@TheHorseThatWentNay|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789081697|Sold|350|10|33758|Potato||@Iddylion|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789118899|Sold|600|1|97217|Ring of a Mother's Sorrow||@Iddylion|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789118896|Sold|425|1|96970|Ring of Mother's Embrace||@Iddylion|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789088303|Sold|300|1|54509|Platinum Ring||@Iddylion|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789118895|Sold|330|1|97035|Plague Doctor's Ring||@Iddylion|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789088302|Sold|225|1|54509|Platinum Ring||@Iddylion|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789088303|Sold|360|1|54515|Platinum Necklace||@Iddylion|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789066489|Sold|1100|1|155021|Ring of Marauder's Haste||@Iddylion|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789074505|Sold|300|1|117812|Redguard Jar, Oasis||@NIGHT-M0THER|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789096442|Sold|1200|1|74566|Crafting Motif 33: Thieves Guild Shields||@LaedeGrinningsoul|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789076038|Sold|30000|1|132594|Crafting Motif 57: Ebonshadow Staves||@rhimesrhizzo|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789123854|Sold|28000|1|64515|Dominion Cold Fire Ballista||@mcninjalo|Anti-Social Trading Guild|21|[97m|TTC|3
+HISTORY|1789096441|Sold|1100|1|74557|Crafting Motif 33: Thieves Guild Belts||@Rujuk75|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789096444|Sold|1250|1|74563|Crafting Motif 33: Thieves Guild Helmets||@Rujuk75|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789096437|Sold|1000|1|74567|Crafting Motif 33: Thieves Guild Shoulders||@Rujuk75|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789096443|Sold|1200|1|74564|Crafting Motif 33: Thieves Guild Legs||@Rujuk75|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789092153|Sold|2200|1|203514|Style Page: Gold Road Dragoon Guards||@Dariozz|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789123849|Sold|20000|1|64517|Covenant Cold Fire Ballista||@Dariozz|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789132319|Sold|2500|1|123059|Defiler's Boots||@guantou|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789073277|Sold|15000|1|73847|Crafting Motif 30: Morag Tong Legs||@TheMorning-Star|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789074521|Sold|463|1|118216|Painting of Spring, Sturdy||@yomspoon|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789074536|Sold|819|1|117674|Redguard Trunk, Heavy||@yomspoon|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789073193|Sold|4000|1|160572|Crafting Motif 86: Sea Giant Staves||@Ace.8|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789073187|Sold|5000|1|194526|Crafting Motif 122: Dead Keeper Staves||@Ace.8|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789076426|Sold|380|1|45959|Recipe: Mammoth Snout Pie||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789073567|Sold|23|1|45889|Recipe: Baked Apples||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789096574|Sold|25|1|45895|Recipe: Pumpkin Cheesecake||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789130677|Sold|30|1|214309|Harvested Soul Fragment||@Scoiataellem|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789127415|Sold|200|1|57025|Recipe: Infernal Infusion||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789096572|Sold|24|1|46034|Recipe: Meady-Matey Infusion||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789130905|Sold|725|1|46004|Recipe: Two-Zephyr Tea||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789127417|Sold|200|1|57021|Recipe: Sweet Slaughterfish Tea||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789096573|Sold|24|1|116095|Pattern: Khajiit Banner, Claw||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789096575|Sold|25|1|45970|Recipe: Nut Brown Ale||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789096587|Sold|350|1|45959|Recipe: Mammoth Snout Pie||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789096568|Sold|200|1|134478|Formula: Fabricant Saplings, Electrum||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789091948|Sold|925|1|45958|Recipe: Cyrodilic Cornbread||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789096895|Sold|5999|1|171917|Crafting Motif 102: Sul-Xan Chests||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789096877|Sold|4999|1|171918|Crafting Motif 102: Sul-Xan Daggers||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789098671|Sold|4999|1|160561|Crafting Motif 86: Sea Giant Belts||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789098668|Sold|4999|1|160573|Crafting Motif 86: Sea Giant Swords||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789098669|Sold|5999|1|160564|Crafting Motif 86: Sea Giant Chests||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789096451|Sold|1638|1|51688|Crafting Motif 14: Daedric Style||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789092143|Sold|999|1|212135|Style Page: Zenithar Battlesmith Jack||@Sebzio|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789096575|Sold|27|1|116097|Pattern: Khajiit Bedding, Padded||@StarRavenSAT|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789118894|Sold|150|1|1742|Cathartic Band||@StarRavenSAT|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789073722|Sold|27|1|45959|Recipe: Mammoth Snout Pie||@StarRavenSAT|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789096580|Sold|10|1|45090|Rubedite Sword of Frost||@StarRavenSAT|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789367398|Sold|105|1|190324|Style Page: Bonemold Sabatons||@LadyTinko|Anti-Social Trading Guild|21|[33m|TTC|2
+HISTORY|1789130768|Sold|150|1|190323|Style Page: Bonemold Pauldrons||@LadyTinko|Anti-Social Trading Guild|21|[33m|TTC|2
+HISTORY|1789108866|Sold|18800|4|219849|Unidentified Blacksmith Survey Report||@dustpuddle|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789071982|Sold|18000|1|57700|Exemplary Nirnhoned Sword||@dustpuddle|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789096435|Sold|1000|1|74565|Crafting Motif 33: Thieves Guild Maces||@belllyache|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789088398|Sold|25000|1|219685|Blueprint: Tide-Born Wall, Curved Boma||@belllyache|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789073595|Sold|50|1|118990|Blueprint: High Elf Dresser, Sturdy||@belllyache|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789137613|Sold|150|1|43536|Electrum Ring of Reduce Feat Cost||@Jumbojoe77|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789118892|Sold|100|1|43536|Electrum Ring of Reduce Feat Cost||@Jumbojoe77|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789353454|Sold|1000|1|143997|Indomitable Fury Lightning Staff||@Minaeus|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789353457|Sold|1000|1|88137|Alessian Lightning Staff||@Minaeus|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789337921|Sold|1500|1|139658|Exemplary Triune Necklace||@Minaeus|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789353477|Sold|1000|1|194263|Cuirass of Akatosh's Law||@Minaeus|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789353456|Sold|1000|1|93550|Ice Staff of Kyne's Kiss||@Minaeus|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789360054|Sold|1000|1|76905|Crafting Motif 38: Draugr Shields||@Dariozz|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789367405|Sold|300|1|223970|Style Page: Battlefield Provisioner Sash||@wouizer|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789353295|Sold|300|1|16424|Crafting Motif 1: High Elf Style||@wouizer|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789353330|Sold|2500|1|51638|Crafting Motif 11: Ancient Elf Style||@wouizer|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789342657|Sold|25|1|115736|Design: Argonian Cup, Short||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789339266|Sold|25|1|46034|Recipe: Meady-Matey Infusion||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789409307|Sold|99|1|225219|Shard of Parched Stone||@Scoiataellem|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789367394|Sold|40|1|118991|Blueprint: High Elf Stool, Curved||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789339275|Sold|24|1|46040|Recipe: Guarana Tonic||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789346944|Sold|85|1|119131|Design: Redguard Pot, Capped||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789339270|Sold|24|1|46009|Recipe: Green Scourgut Tea||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789367389|Sold|25|1|45888|Recipe: Fishy Stick||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789355788|Sold|5000|1|153738|Master Jewelry Crafter Writ||@Scoiataellem|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789355787|Sold|999|1|153737|Master Jewelry Crafter Writ||@Scoiataellem|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789339280|Sold|30|1|116153|Design: Nord Pot, Ceramic||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789339300|Sold|65|1|119404|Diagram: Common Cage, Hunting||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789354064|Sold|1000|1|121055|Breton Mug, Full||@Scoiataellem|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789354774|Sold|2490|1|139452|Big-Eared Ginger Kitten's Milk Saucer||@Spartacus621|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789341355|Sold|1999|1|137930|Crafting Motif 62: Sapiarch Maces||@Spartacus621|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789336313|Sold|61999|8|54177|Dreugh Wax||@drakmir|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789329800|Sold|795|1|138797|Platinum Necklace||@guantou|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789337379|Sold|1500|1|225223|Coldharbour's Favorite Dagger||@guantou|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789339160|Sold|400|1|223162|Kelp Shelf, Small Brown||@Dorsidhion81|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789354060|Sold|250|1|118339|Fish, Salmon||@Dorsidhion81|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789356402|Sold|1850|1|139661|Exemplary Swift Necklace||@mcninjalo|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789339306|Sold|75|1|68196|Recipe: Bravil's Best Beet Risotto||@venthegremlin|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789353332|Sold|5000|1|51345|Crafting Motif 13: Primal Style||@ExplicitDips|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789353369|Sold|75000|1|124680|Crafting Motif 48: Ashlander Axes||@ExplicitDips|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789353370|Sold|75000|1|129998|Crafting Motif 51: Hlaalu Bows||@ExplicitDips|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789353365|Sold|50000|1|82014|Crafting Motif 41: Celestial Helmets||@ExplicitDips|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789353338|Sold|5000|1|27246|Crafting Motif 9: Argonian Style||@ExplicitDips|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789353291|Sold|100|1|16425|Crafting Motif 5: Breton Style||@belllyache|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789364597|Sold|3000|1|160497|Crafting Motif 84: Blackreach Vanguard Bows||@belllyache|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789336480|Sold|10000|1|160550|Crafting Motif 85: Greymoor Helmets||@belllyache|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789331026|Sold|20000|1|167969|Crafting Motif 96: Arkthzand Armory Legs||@belllyache|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789408925|Sold|360|30|46129|Quicksilver Ingot||@Coldweatherbear|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789346970|Sold|200|1|119361|Pattern: Common Basket, Open||@Coldweatherbear|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789347048|Sold|1500|1|118216|Painting of Spring, Sturdy||@Coldweatherbear|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789346963|Sold|175|1|116012|Blueprint: Dark Elf Cart, Merchant||@Coldweatherbear|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789346380|Sold|2500|1|139654|Exemplary Infused Ring||@Marluxe|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789336467|Sold|7000|1|171896|Crafting Motif 101: Ivory Brigade Axes||@Unoriginal_Daisy|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789336470|Sold|7500|1|160506|Crafting Motif 84: Blackreach Vanguard Staves||@Unoriginal_Daisy|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789336478|Sold|9000|1|160555|Crafting Motif 85: Greymoor Staves||@Unoriginal_Daisy|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789341353|Sold|1500|1|160590|Crafting Motif 87: Ancestral Nord Swords||@Unoriginal_Daisy|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789331025|Sold|30000|1|167965|Crafting Motif 96: Arkthzand Armory Chests||@Unoriginal_Daisy|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789346379|Sold|2200|1|139654|Exemplary Infused Ring||@TheHorseThatWentNay|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789405191|Sold|7000|1|130019|Crafting Motif 52: Redoran Legs||@TheHorseThatWentNay|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789359425|Sold|250|1|175810|Companion's Breeches||@Jumbojoe77|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789404895|Sold|10200|200|71198|Rubedite Ore||@Jumbojoe77|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789333653|Sold|3333|1|198529|Praxis: Necrom Wind Chimes, Stone||@Sofuzz|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789356401|Sold|1799|1|139661|Exemplary Swift Necklace||@Sofuzz|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789414164|Sold|600|32|64501|Lorkhan's Tears||@Iddylion|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789339311|Sold|75|1|116150|Blueprint: Nord Dresser, Rough||@Iddylion|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789408932|Sold|120|13|54171|Dwarven Oil||@WordCat1213|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789338194|Sold|460|1|194556|Festering Dreamcloth||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789355796|Sold|100|5|45832|Makko||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789410752|Sold|700|1|97095|Plague Doctor's Pauldron||@Udielo|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789359899|Sold|206|1|5364|Superb Glyph of Frost Resist||@yomspoon|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789331195|Sold|2729|200|64489|Rubedite Ingot||@yomspoon|Anti-Social Trading Guild|21|[97m|TTC|2
+HISTORY|1789359897|Sold|163|1|26848|Truly Superb Glyph of Flame||@yomspoon|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789353471|Sold|180|1|133178|Guards of Unfathomable Darkness||@yomspoon|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789353363|Sold|31999|1|74659|Crafting Motif 35: Dro-m'Athra Gloves||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789353361|Sold|15999|1|74653|Crafting Motif 35: Dro-m'Athra Axes||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789414808|Sold|3999|1|194494|Crafting Motif 121: Clan Dreamcarver Belts||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789342660|Sold|85|1|116163|Diagram: Nord Candle, Tealight||@Kotchinha|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789342402|Sold|2000|1|145435|Plant, Marsh Mani Flower||@Kotchinha|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789354063|Sold|245|1|117943|Rough Bowl, Common||@Kotchinha|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789347008|Sold|375|1|116097|Pattern: Khajiit Bedding, Padded||@NIGHT-M0THER|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789338835|Sold|775|1|151973|Praxis: Elsweyr Plinth, Ancient Stone||@NIGHT-M0THER|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789402389|Sold|5500|1|178718|Crafting Motif 108: Fargrave Guardian Shoulders||@NIGHT-M0THER|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789338825|Sold|775|1|152109|Praxis: Elsweyr Wall, Curved Masonry||@NIGHT-M0THER|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789346988|Sold|225|1|118986|Blueprint: High Elf Bench, Curved||@NIGHT-M0THER|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789346991|Sold|225|1|119016|Blueprint: Orcish Shelves, Braced||@NIGHT-M0THER|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789367392|Sold|27|1|223934|Pattern: Fargrave Paper Lantern, Green Flat||@NIGHT-M0THER|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789346995|Sold|250|1|115923|Blueprint: Breton Shelf, Long||@NIGHT-M0THER|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789347015|Sold|500|1|119159|Blueprint: Redguard Candelabra, Practical||@NIGHT-M0THER|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789346952|Sold|122|1|118998|Diagram: High Elf Basin, Gilded||@EvilMadeF13sh|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789342663|Sold|92|1|118992|Blueprint: High Elf End Table, Sturdy||@EvilMadeF13sh|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789346939|Sold|82|1|116087|Design: Khajiit Bottle, Amber||@EvilMadeF13sh|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789331623|Sold|980|1|177185|Companion's Shield||@EvilMadeF13sh|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789349701|Sold|500|1|176457|Companion's Greatsword||@Vashjiir|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789349769|Sold|6000|1|171287|Style Page: Opal Swarm Mother Bow||@Frozen_Eagle|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789342339|Sold|800|1|43719|Cyrodiil Treasure Map XVII||@AudibleBasekick|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789350002|Sold|660|1|43728|Wrothgar Treasure Map II||@AudibleBasekick|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789350001|Sold|500|1|43746|Clockwork City Treasure Map I||@AudibleBasekick|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789401437|Sold|15196|200|30157|Blessed Thistle||@Mythic-Shadow|Tamriel Trade Secrets|102|[32m|TTC|2
+HISTORY|1789344677|Sold|69550|100|114894|Decorative Wax||@Mythic-Shadow|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789408530|Sold|12996|200|30158|Lady's Smock||@Mythic-Shadow|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789360147|Sold|19999|1|223953|Crafting Motif 137: Koldane Cartel Daggers||@unit220|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789360149|Sold|22000|1|223958|Crafting Motif 137: Koldane Cartel Shields||@unit220|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789356835|Sold|9000|1|120845|Craglorn Sword Sconce||@SteeJans91|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789409683|Sold|22222|1|177169|Companion's Helm||@lemonbalm|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789360171|Sold|222|1|152001|Praxis: Elsweyr Pot, Ornate||@lemonbalm|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789360152|Sold|23000|1|223949|Crafting Motif 137: Koldane Cartel Belts||@MrNobodyNZ|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789405360|Sold|1000|1|224588|Sword of the Gorethief||@MrNobodyNZ|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789360759|Sold|4000|1|97225|Dagger of a Mother's Sorrow||@MrNobodyNZ|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789360150|Sold|22500|1|223948|Crafting Motif 137: Koldane Cartel Axes||@MrNobodyNZ|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789340826|Sold|9100|1|184891|Bracers of the Order's Wrath||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789351000|Sold|15000|1|69901|Arm Cops of Julianos||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789340539|Sold|7400|1|184895|Belt of the Order's Wrath||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789404774|Sold|800|1|139459|Psijic Glowglobe's Updated Instructionals||@DragonWhimsy|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789340611|Sold|7900|1|184892|Helmet of the Order's Wrath||@DragonWhimsy|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789360164|Sold|125|1|151995|Design: Elsweyr Spice Display, Matcha Green||@poodurdle|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789363252|Sold|193|1|45357|Rubedo Leather Boots||@BelovedBelle|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789363250|Sold|190|1|45359|Rubedo Leather Helmet||@BelovedBelle|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789363253|Sold|196|1|45349|Ancestor Silk Gloves||@BelovedBelle|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789363254|Sold|198|1|45350|Ancestor Silk Hat||@BelovedBelle|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789360145|Sold|9000|1|71693|Crafting Motif 25: Aldmeri Dominion Chests||@Cwibacca|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789356631|Sold|9000|200|30149|Stinkhorn||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789510932|Sold|5000|200|64504|Ancestor Silk||@Sabel_Kitty|Tamriel Trade Secrets|102|[97m|TTC|15
+HISTORY|1789356632|Sold|5640|188|30154|White Cap||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789356631|Sold|6000|200|30154|White Cap||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789356633|Sold|2610|58|30155|Luminous Russula||@Sabel_Kitty|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789350007|Sold|2995|1|224681|Unopened Treasure Map||@tsgorton|Tamriel Trade Secrets|102|[36m|TTC|3
+HISTORY|1789404785|Sold|1200|1|137934|Crafting Motif 62: Sapiarch Swords||@karma3|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789360173|Sold|325|1|115878|Design: Wood Elf Pitcher, Marked||@Capo4syn|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789404767|Sold|800|1|224089|Thousand Eyes Banner, Large Hanging||@Capo4syn|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789404796|Sold|1500|1|205157|Macabre Vintage Axe||@Capo4syn|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789360169|Sold|150|1|116149|Blueprint: Nord Hutch, Rough||@ParalyzerT9|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789360167|Sold|150|1|119013|Blueprint: Orcish Table, Braced Kitchen||@ParalyzerT9|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789360175|Sold|749|1|116029|Blueprint: Dark Elf Wagon, Merchant||@Aruk12|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789341605|Sold|82000|1|199067|Style Page: Bristleback Hunter Jack||@APHONlC|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789367886|Sold|1200|1|212529|Style Page: Wormwrithe Arm Cops||@probablewitch|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789350127|Sold|120|1|115726|Blueprint: Argonian Dried Leaves||@probablewitch|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789368202|Sold|450|1|176596|Companion's Girdle||@probablewitch|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789360142|Sold|3700|1|171925|Crafting Motif 102: Sul-Xan Staves||@Nommao|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789350098|Sold|479|1|57040|Recipe: White-Eye Whiskey||@LordAter|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789336141|Sold|799|1|45975|Recipe: Honey Rye||@LordAter|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789363238|Sold|228|1|45344|Rubedite Greaves||@mao333|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789363260|Sold|229|1|45351|Ancestor Silk Breeches||@mao333|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789408166|Sold|355|1|45356|Rubedo Leather Jack||@mao333|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789363281|Sold|250|1|45332|Ruby Ash Restoration Staff||@mao333|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789360178|Sold|800|1|118971|Blueprint: High Elf Wine Rack, Folding||@mao333|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789363233|Sold|244|1|45303|Rubedite Greatsword||@mao333|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789372631|Sold|75|1|115725|Design: Argonian Snakes on a Rope||@Starbuxslayer|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789330040|Sold|5500|10|30152|Violet Coprinus||@stoppingsound|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789350278|Sold|1000|1|119694|Master Clothier Writ||@celeste.lavie|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789409081|Sold|5000|1|74548|Crafting Motif 32: Abah's Watch Legs||@celeste.lavie|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789340047|Sold|10000|1|223961|Crafting Motif 137: Koldane Cartel Swords||@celeste.lavie|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789340053|Sold|10000|1|223949|Crafting Motif 137: Koldane Cartel Belts||@celeste.lavie|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789359638|Sold|7700|1|121533|Master Clothier Writ||@celeste.lavie|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789340052|Sold|10000|1|223959|Crafting Motif 137: Koldane Cartel Shoulders||@celeste.lavie|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789340050|Sold|10000|1|223956|Crafting Motif 137: Koldane Cartel Legs||@celeste.lavie|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789409677|Sold|5000|1|177174|Companion's Sabatons||@celeste.lavie|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789339069|Sold|2000|1|215072|Style Page: Light of Knowledge Gloves||@celeste.lavie|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789335032|Sold|900|1|117748|Redguard Tankard, Full||@celeste.lavie|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789404801|Sold|1500|1|137923|Crafting Motif 62: Sapiarch Boots||@Chalindrea|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789348719|Sold|30000|10|203633|Zircon Plating||@SeekUp|Tamriel Trade Secrets|102|[35m|TTC|2
+HISTORY|1789779287|Sold|22500|5|182553|Stendarr Stamp||@SeekUp|Tamriel Trade Secrets|102|[97m|TTC|4
+HISTORY|1789367874|Sold|1200|1|156695|Style Page: Skaal Explorer Epaulets||@RangerDelk|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789360174|Sold|333|1|188189|Diagram: High Isle Goblet, Empty||@RangerDelk|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789364798|Sold|44000|4|54173|Tempering Alloy||@RangerDelk|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789349120|Sold|225|1|45342|Rubedite Gauntlets||@YourRivalGary|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789369390|Sold|29999|1|151951|Nedic Orb, Ritual||@YourRivalGary|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789347019|Sold|14999|1|203901|Ring of Oakfather's Retribution||@YourRivalGary|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789363257|Sold|225|1|45354|Ancestor Silk Sash||@YourRivalGary|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789330006|Sold|1000|1|96785|Sabatons of the Wyrd Tree||@Mortem1999|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789360781|Sold|5000|1|114615|Dagger of Bahraha's Curse||@Eraseme123|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789355483|Sold|999|1|119033|Design: Breton Chamberstick, Tall||@Eraseme123|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789434010|Sold|7555|1|139656|Exemplary Harmony Ring||@Sofuzz|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789465590|Sold|1000|1|74557|Crafting Motif 33: Thieves Guild Belts||@belllyache|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789432937|Sold|2500|1|171786|Praxis: Markarth Wall, Wide Stone||@belllyache|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789460621|Sold|20000|1|176479|Companion's Jack||@belllyache|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789489350|Sold|398|1|188188|Pattern: Book Stack, Well-Read||@dustpuddle|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789453826|Sold|62000|1|212178|Runebox: Oak's Promise Body Marks||@TheMorning-Star|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789465640|Sold|1394|1|74565|Crafting Motif 33: Thieves Guild Maces||@Coremelder|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789419539|Sold|200|40|34330|Lotus||@Iddylion|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789430250|Sold|210|7|27059|Bervez Juice||@Iddylion|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789475875|Sold|200|1|214309|Harvested Soul Fragment||@Zan'Raht|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789431568|Sold|11999|1|147684|Crafting Motif 72: Meridian Belts||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789465618|Sold|1199|1|74557|Crafting Motif 33: Thieves Guild Belts||@Sebzio|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789465642|Sold|1500|1|74563|Crafting Motif 33: Thieves Guild Helmets||@tmacedo|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789438938|Sold|31000|1|223899|Praxis: Writhing Fortress Platform, Tiered||@tmacedo|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789455149|Sold|290|1|46001|Recipe: Thrassian Chai||@Alabaster100|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789476068|Sold|30|1|115769|Blueprint: Argonian Stool, Woven||@Lonelty|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789489292|Sold|27|1|116092|Pattern: Khajiit Banner, Crescents||@Lonelty|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789489304|Sold|27|1|116014|Blueprint: Dark Elf Armchair, Angled||@Lonelty|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789454620|Sold|27|1|45946|Recipe: Battaglir Chowder||@Lonelty|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789455132|Sold|27|1|45995|Recipe: Nereid Wine||@Lonelty|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789476066|Sold|30|1|115758|Blueprint: Argonian Wind Chimes||@Lonelty|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789465592|Sold|1100|1|74561|Crafting Motif 33: Thieves Guild Daggers||@woodseab14_ESO|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789465623|Sold|1309|1|74564|Crafting Motif 33: Thieves Guild Legs||@woodseab14_ESO|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789426196|Sold|5000|1|74541|Crafting Motif 32: Abah's Watch Belts||@wouizer|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789465622|Sold|1300|1|74561|Crafting Motif 33: Thieves Guild Daggers||@Bryon61|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789450816|Sold|18500|1|219854|Unidentified Jewelry Crafter Survey Report||@Rujuk75|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789439109|Sold|1090|3|114895|Heartwood||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789449588|Sold|390|2|114889|Regulus||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789439103|Sold|130|2|114890|Bast||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789449585|Sold|110|3|135161|Ochre||@WordCat1213|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789428541|Sold|6199|8|54181|Rosin||@drakmir|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789453611|Sold|20|1|190325|Style Page: Bonemold Gauntlets||@MineCraftRoyal|Anti-Social Trading Guild|21|[33m|TTC|3
+HISTORY|1789448669|Sold|50|1|153573|Style Page: Glenmoril Wyrd Sword||@MineCraftRoyal|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789448735|Sold|50|1|190324|Style Page: Bonemold Sabatons||@MineCraftRoyal|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789423355|Sold|50|1|115907|Blueprint: Breton Cart, Wheelbarrow||@MineCraftRoyal|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789448673|Sold|20|1|190326|Style Page: Bonemold Girdle||@MineCraftRoyal|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789426195|Sold|4000|1|182523|Crafting Motif 112: Syrabanic Marine Boots||@Dariozz|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789465619|Sold|1200|1|74557|Crafting Motif 33: Thieves Guild Belts||@Dariozz|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789439101|Sold|1790|20|114890|Bast||@Spartacus621|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789423357|Sold|80|1|119404|Diagram: Common Cage, Hunting||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789455475|Sold|425|1|56961|Recipe: Blacklight Oxen Meatballs||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789465563|Sold|875|1|76900|Crafting Motif 38: Draugr Daggers||@Scoiataellem|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789476073|Sold|80|1|119143|Blueprint: Redguard Desk, Sturdy||@Scoiataellem|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789465594|Sold|1111|1|74566|Crafting Motif 33: Thieves Guild Shields||@AcidNorAlkaline|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789470385|Sold|111|1|45273|Rubedite Helm of Health||@AcidNorAlkaline|Anti-Social Trading Guild|21|[97m|TTC|1
+HISTORY|1789424215|Sold|2222|1|77524|Sithis' Ring||@AcidNorAlkaline|Anti-Social Trading Guild|21|[32m|TTC|1
+HISTORY|1789432588|Sold|500|1|45300|Rubedite Sword||@Coldweatherbear|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789430995|Sold|2000|1|88128|Alessian Mace||@Krat0m|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789430996|Sold|2000|1|88071|Alessian Maul||@Krat0m|Anti-Social Trading Guild|21|[36m|TTC|1
+HISTORY|1789445874|Sold|250|1|45347|Ancestor Silk Robe||@Jumbojoe77|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789475883|Sold|299|1|214309|Harvested Soul Fragment||@yomspoon|Anti-Social Trading Guild|21|[35m|TTC|1
+HISTORY|1789432568|Sold|215|1|26582|Truly Superb Glyph of Magicka||@yomspoon|Anti-Social Trading Guild|21|[33m|TTC|1
+HISTORY|1789535040|Sold|275|1|116120|Pattern: Khajiit Curtains, Moons||@poodurdle|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789576406|Sold|1350|1|71528|Crafting Motif 24: Outlaw Daggers||@poodurdle|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789531837|Sold|185|1|64705|Recipe: Psijic Ambrosia, Fragment III||@Mr.Rabbit1|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789498655|Sold|50|1|45990|Recipe: Lemon Flower Mazte||@Starbuxslayer|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789547865|Sold|24|1|46043|Recipe: Sweetberry Tonic||@Starbuxslayer|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789547878|Sold|75|1|45941|Recipe: Hunter's Pie||@Starbuxslayer|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789492626|Sold|4400|1|145380|Murkmire Shelves, Woven||@Lagtency|Tamriel Trade Secrets|102|[36m|TTC|3
+HISTORY|1789573126|Sold|300|1|223157|Worm Cult Bucket, Bismuth Samples||@Capo4syn|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789496724|Sold|85000|1|119239|Pattern: Redguard Couch, Slatted||@Sootica|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789493527|Sold|275|1|118985|Blueprint: High Elf Bed, Single||@Gretkins|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789525568|Sold|1000|1|95745|Axe of the Air||@Halloween.1744|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789492599|Sold|300|1|29925|Pact Amulet||@Halloween.1744|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789521726|Sold|25000|1|57731|Exemplary Nirnhoned Belt||@frenzie357|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789526566|Sold|2500|1|225220|Bitten Chew Bone||@frenzie357|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789525890|Sold|1000|1|156609|Crafting Motif 81: New Moon Priest Axes||@frenzie357|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789574056|Sold|4900|1|119564|Master Enchanting Writ||@Saenek|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789524948|Sold|55555|1|211056|Crafting Motif 130: Exile's Revenge Belts||@kevkj|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789513424|Sold|3000|1|217917|Unknown Blacksmithing Writ||@celeste.lavie|Tamriel Trade Secrets|102|[35m|TTC|2
+HISTORY|1789817232|Sold|1200|200|64502|Sanded Ruby Ash||@Sabel_Kitty|Tamriel Trade Secrets|102|[97m|TTC|20
+HISTORY|1789532978|Sold|6350|1|160506|Crafting Motif 84: Blackreach Vanguard Staves||@Sabel_Kitty|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789513421|Sold|6000|2|217917|Unknown Blacksmithing Writ||@Sabel_Kitty|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789526806|Sold|5000|1|211520|Pit Daemon Wreath||@ParalyzerT9|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789747459|Sold|17799|1|56036|Maple Lightning Staff||@ggorton3|Tamriel Trade Secrets|102|[97m|TTC|3
+HISTORY|1789525886|Sold|649|1|156619|Crafting Motif 81: New Moon Priest Shields||@Aruk12|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789574301|Sold|1500|1|204857|Style Page: Arkay Unending Cycle Sabatons||@Frozen_Eagle|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789535067|Sold|2500|1|197664|Style Page: Ashen Militia Shield||@Frozen_Eagle|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789574303|Sold|1500|1|204856|Style Page: Arkay Unending Cycle Pauldrons||@Frozen_Eagle|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789525908|Sold|1999|1|152025|Pattern: Elsweyr Fabric, Hanging Cluster||@mao333|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789497436|Sold|510|1|45094|Rubedite Dagger of Shock||@SillyKitty25|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789513420|Sold|2500|1|217918|Unknown Clothier Writ||@stoppingsound|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789531825|Sold|199|1|64704|Recipe: Psijic Ambrosia, Fragment II||@cdralcatraz|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789492025|Sold|1500|1|224413|Sword of the Gorethief||@MrNobodyNZ|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789527341|Sold|10000|1|71304|Briarheart Collar||@MrNobodyNZ|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789527408|Sold|35000|1|129728|Briarheart Dagger||@MrNobodyNZ|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789697145|Sold|2000|1|97189|Plague Doctor's Shield||@redcoAt12|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789739940|Sold|15000|1|214466|Tide-Born Knife, Kitchen||@Sootica|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789743535|Sold|24800|4|45854|Kuta||@RangerDelk|Tamriel Trade Secrets|102|[33m|TTC|2
+HISTORY|1789743793|Sold|47184|4|54173|Tempering Alloy||@RangerDelk|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789739808|Sold|1300|1|215086|Style Page: Tava's Goshawk Hands||@probablewitch|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789739800|Sold|1200|1|215054|Style Page: Fish Boon Pioneer Hat||@probablewitch|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789739803|Sold|1200|1|215083|Style Page: Tava's Goshawk Greaves||@probablewitch|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789739806|Sold|1300|1|203513|Style Page: Gold Road Dragoon Helmet||@probablewitch|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789744722|Sold|1000|1|119172|Pattern: Redguard Armchair, Cushioned||@Halloween.1744|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789775984|Sold|22000|1|165730|Solitude Bookcase, Backless Filled||@Lagtency|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789775969|Sold|8800|1|165702|Solitude Cabinet, Ornate Wall||@Lagtency|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789739806|Sold|1100|1|118094|Cleaver, Butcher's||@Lagtency|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789755132|Sold|40000|1|203716|Mages Guild Citation||@celeste.lavie|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789775962|Sold|6600|1|115173|Breton Vase, Ceramic||@BelovedBelle|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789749404|Sold|17799|1|56030|Iron Maul||@ggorton3|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789749583|Sold|17799|1|56029|Iron Battle Axe||@ggorton3|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789749396|Sold|17799|1|56031|Iron Greatsword||@ggorton3|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789770270|Sold|10000|1|135431|Gryphon's Greatsword||@YourRivalGary|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789768893|Sold|888|1|215057|Style Page: Fish Boon Pioneer Sandals||@RestfulTester|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789739845|Sold|400|1|210995|Style Page: Worm Cult Hunter Boots||@RestfulTester|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789760866|Sold|116999|1|211059|Crafting Motif 130: Exile's Revenge Chests||@LordAter|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789722088|Sold|3500|1|217919|Unknown Woodworking Writ||@FerrariRace, @ParalyzerT9|Tamriel Trade Secrets|102|[35m|TTC|2
+HISTORY|1789697139|Sold|2100|1|139654|Exemplary Infused Ring||@karma3|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789756793|Sold|2400|1|139660|Exemplary Infused Necklace||@karma3|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789748819|Sold|4444|1|224559|Inferno Staff of the Gorethief||@Eraseme123|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789756802|Sold|590|1|199867|Girdle of Syvarra's Scales||@MossyFrog|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789748804|Sold|1180|1|199756|Greaves of Bahraha's Curse||@MossyFrog|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789748799|Sold|5000|1|91070|Hat of Almalexia's Mercy||@MrNobodyNZ|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789756807|Sold|1000|1|211889|Farstrider Jack||@MrNobodyNZ|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789739841|Sold|400|1|170150|Style Page: Rkindaleft Dwarven Bow||@Mortem1999|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789753159|Sold|1000|1|155128|Axe of Marauder's Haste||@Mortem1999|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789756811|Sold|500|1|114511|Bow of Bahraha's Curse||@Mortem1999|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789748788|Sold|299|1|155216|Dragonguard Elite's Amulet||@parsonsjd64|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789757964|Sold|2400|200|42872|Insect Parts, River Bait||@Sabel_Kitty|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789822541|Sold|480|1|51565|Crafting Motif 12: Barbaric Style||@probablewitch|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789780925|Sold|500|1|224374|Ring of the Gorethief||@MrNobodyNZ|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789788511|Sold|1329|1|181549|Praxis: Vampiric Lamp, Azure Triple||@RangerDelk|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789786396|Sold|2765|1|160583|Crafting Motif 87: Ancestral Nord Gloves||@RangerDelk|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789806471|Sold|6000|1|225183|Completed Bounty Sheet, Framed Breton Man||@redcoAt12|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789794632|Sold|5000|1|117904|Redguard Trunk, Garish||@redcoAt12|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789794627|Sold|3500|1|171820|Redguard Urn, Wrapped Golden||@redcoAt12|Tamriel Trade Secrets|102|[35m|TTC|2
+HISTORY|1789794678|Sold|45000|1|151612|Pile of Dubious Riches||@redcoAt12|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789795082|Sold|5000|2|225220|Bitten Chew Bone||@frenzie357|Tamriel Trade Secrets|102|[35m|TTC|2
+HISTORY|1789826290|Sold|35000|1|190894|Crafting Motif 120: Scribes of Mora Chests||@Lori_GamerBro|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789819540|Sold|17799|1|56032|Iron Dagger||@ggorton3|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789819549|Sold|17799|1|56028|Iron Sword||@ggorton3|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789794637|Sold|5500|1|117719|Redguard Sofa, Desert Flame||@Lagtency|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789783606|Sold|1100|1|115162|Breton Rack, Barrel||@Lagtency|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789780930|Sold|950|1|97035|Plague Doctor's Ring||@SillyKitty25|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789797488|Sold|1200|1|45870|Truly Superb Glyph of Reduce Spell Cost||@mao333|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789797486|Sold|200|1|45871|Superb Glyph of Reduce Feat Cost||@mao333|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789815012|Sold|2600|200|42871|Crawlers, Foul Bait||@Sabel_Kitty|Tamriel Trade Secrets|102|[97m|TTC|3
+HISTORY|1789816917|Sold|12000|1|87904|Deadly Lightning Staff||@BlanketWraith|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789811238|Sold|4000|1|147399|Deadly Belt||@BlanketWraith|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789806456|Sold|1200|1|206539|Lucent Crystals, Plume||@frayed.knot|Tamriel Trade Secrets|102|[36m|TTC|2
+HISTORY|1789794630|Sold|5000|1|151657|Elsweyr Sugar Pipe, Gilded||@karma3|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789806724|Sold|29999|1|212557|Dawnwood Hut, Partial||@YourRivalGary|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789809837|Sold|14999|1|189844|Mara's Balm Ring||@YourRivalGary|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789797488|Sold|1000|1|45867|Truly Superb Glyph of Absorb Stamina||@DragonWhimsy|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789780929|Sold|888|1|138796|Platinum Ring||@RestfulTester|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789780930|Sold|888|1|138797|Platinum Necklace||@RestfulTester|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789810094|Sold|1500|1|152053|Blueprint: Elsweyr Cabinet, Wall||@Elder_Bob|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789782704|Sold|5000|1|176589|Companion's Belt||@celeste.lavie|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1789780929|Sold|749|1|138796|Platinum Ring||@Mythic-Shadow|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1789780922|Sold|299|1|154836|Senchal Defender's Ring||@parsonsjd64|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789780924|Sold|399|1|155215|Dragonguard Elite's Ring||@parsonsjd64|Tamriel Trade Secrets|102|[35m|TTC|2
+HISTORY|1789780931|Sold|999|1|153829|Signet of the Dragonguard||@parsonsjd64|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789780931|Sold|999|1|212182|Merethic Signet||@parsonsjd64|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789780923|Sold|299|1|155215|Dragonguard Elite's Ring||@parsonsjd64|Tamriel Trade Secrets|102|[35m|TTC|1
+HISTORY|1789780924|Sold|399|1|154836|Senchal Defender's Ring||@parsonsjd64|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789780925|Sold|499|1|155216|Dragonguard Elite's Amulet||@parsonsjd64|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789780926|Sold|555|1|95828|Ring of the Trainee||@lemonbalm|Tamriel Trade Secrets|102|[36m|TTC|1
+HISTORY|1789788528|Sold|300|1|188170|Diagram: High Isle Brazier, Bowl||@Halloween.1744|Tamriel Trade Secrets|102|[32m|TTC|1
+HISTORY|1789857894|Sold|19999|1|199690|Mace of Vicious Death||@Faolan2018|Tamriel Trade Secrets||[36m|TTC|1
+HISTORY|1790212026|Sold|2200|1|217919|Unknown Woodworking Writ||@Redkoolaiidz|Anti-Social Trading Guild|96|[35m|TTC|1
+HISTORY|1790006093|Sold|6799|1|26588|Truly Superb Glyph of Stamina|@ggorton3|@KYOCHENG26|Tamriel Trade Secrets||[33m|ESO-Hub|1
+HISTORY|1790006044|Sold|24487|1|68343|Truly Superb Glyph of Prismatic Defense|@ggorton3|@KYOCHENG26|Tamriel Trade Secrets||[33m|ESO-Hub|2
+HISTORY|1790007784|Sold|4000|1|139659|Exemplary Protective Necklace|@Starbuxslayer|@marinachacon|Tamriel Trade Secrets||[35m|ESO-Hub|1
+HISTORY|1790007781|Sold|4000|1|139653|Exemplary Protective Ring|@Starbuxslayer|@marinachacon|Tamriel Trade Secrets||[35m|ESO-Hub|1
+HISTORY|1790542443|Sold|80000|1|190074|Formula: Potted Trees, Stonelore Dogwood||@SeverianMithgar|Tamriel Trade Secrets|102|[33m|TTC|1
+HISTORY|1790541962|Sold|210000|1|175880|Companion's Epaulets||@realonrok|Tamriel Trade Secrets|102|[97m|TTC|1
+HISTORY|1790543560|Sold|2499|1|137861|Crafting Motif 61: Psijic Maces||@Sebzio|Anti-Social Trading Guild|96|[35m|TTC|1

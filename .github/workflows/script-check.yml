@@ -1,0 +1,35 @@
+name: Script Check
+
+on:
+  push:
+    branches: [main, dev]
+    paths:
+      - 'src/**'
+      - 'dist/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'Makefile'
+      - 'VERSION'
+      - '.github/workflows/script-check.yml'
+  workflow_dispatch:
+  workflow_call:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: dist/ matches src/ and VERSION
+        run: bash scripts/build.sh --check
+
+      - name: Linux and Windows give the same results
+        run: bash tests/run.sh
+
+      - uses: ./.github/actions/script-check
+        with:
+          shell_glob: '**/*.sh'
+          batch_glob: 'dist/*.bat'

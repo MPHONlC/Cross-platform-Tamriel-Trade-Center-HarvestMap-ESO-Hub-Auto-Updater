@@ -1,0 +1,53 @@
+name: ✅ Auto-Updater Test Checklist
+description: Run through the Auto-Updater's checklist on your platform and report results
+title: '[TEST] '
+labels:
+- testing
+assignees:
+- MPHONlC
+body:
+- type: markdown
+  attributes:
+    value: Thanks for testing the **Tamriel Trade Center, HarvestMap, ESO-Hub, ESOUI Auto-Updater**! Check off everything you actually tested and confirmed working. Anything broken or partly working, describe it in the notes field at the end instead of checking it off.
+- type: input
+  id: version
+  attributes:
+    label: Script version
+    placeholder: e.g. 2026.09.29.21.48
+  validations:
+    required: true
+- type: dropdown
+  id: platform
+  attributes:
+    label: Platform
+    options:
+    - Linux
+    - macOS
+    - SteamDeck
+    - Windows
+  validations:
+    required: true
+- type: checkboxes
+  id: tests
+  attributes:
+    label: Tests confirmed working
+    options:
+    - label: 'Auto setup: The script finds your game folder and detects your active add-ons.'
+    - label: 'Sales upload: Your TTC and ESO-Hub sales and listings data is extracted and uploaded.'
+    - label: 'PriceTables: The newest PriceTable files download.'
+    - label: 'HarvestMap: New nodes upload and the server database downloads and merges.'
+    - label: 'Market analytics: A Suggested Price is calculated from your history.'
+    - label: 'Database browser: The 30-day history of sold, purchased, listed, cancelled and expired items opens and searches.'
+    - label: 'Map links: ESO-Hub map links and UESP wiki links are generated.'
+    - label: 'Username tracking: An exact @Username filters your top selling and highest grossing stats.'
+    - label: 'Filters: The 1, 2 and 3 week and TTC or ESO-Hub source filters narrow the results.'
+    - label: 'Search: View / Search Database finds items by name, guild, player or trader town and sorts by date, price or name.'
+    - label: 'Previous scan: View Previous Extraction History lists what the last scan found.'
+    - label: 'Both servers: With NA and EU both chosen, your TTC data uploads to both servers.'
+    - label: 'Database template: On fresh install, the item database downloads properly.'
+    - label: 'Add-On updates: with the setup option on, outdated add-ons/libraries in your AddOns folder properly updates, and the old copy is kept in ~Backups/AddOns.'
+- type: textarea
+  id: notes
+  attributes:
+    label: Notes
+    description: Anything broken or partly working, what you did and what you saw.
