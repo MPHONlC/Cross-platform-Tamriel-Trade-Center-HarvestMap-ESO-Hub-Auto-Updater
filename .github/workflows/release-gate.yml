@@ -1,0 +1,22 @@
+name: Release Gate
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  script-check:
+    permissions:
+      contents: read
+    uses: ./.github/workflows/script-check.yml
+
+  broken-link-check:
+    needs: script-check
+    uses: ./.github/workflows/broken-link-check.yml
+    with:
+      fix: true
+    secrets: inherit
+    permissions:
+      contents: write

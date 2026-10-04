@@ -1,0 +1,18 @@
+name: "MPHONlC's ESOUI Safe Text"
+description: 'Writes ESOUI upload copies of text files: non-ASCII becomes numeric entities, BOMs and zero-width marks are dropped.'
+
+inputs:
+  files:
+    description: 'Space-separated files to convert'
+    required: true
+  out_dir:
+    description: 'Folder the converted copies are written to'
+    required: false
+    default: 'esoui-upload-text'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Write ESOUI-safe copies
+      shell: bash
+      run: python3 "${{ github.action_path }}/esoui_safe_text.py" --out-dir "${{ inputs.out_dir }}" ${{ inputs.files }}

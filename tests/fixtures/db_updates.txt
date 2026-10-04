@@ -1,0 +1,5 @@
+DB_UPDATE|64716|4|5|1|Epic (Purple) 4|Crafting Motif 12: Barbaric Style|Motif
+DB_UPDATE|45832|1|20|1|Normal (White) 1|Jute|Material
+DB_GUILD|Second Example Guild|700002
+DB_GUILD|example traders guild|700009
+DB_KIOSK|12|Velyn Harbor|282|494.732%3B274.696
