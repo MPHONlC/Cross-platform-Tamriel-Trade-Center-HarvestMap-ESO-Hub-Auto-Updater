@@ -1,0 +1,27 @@
+name: "MPHONlC's Script Check"
+description: 'Checks shell scripts for syntax errors and shellcheck errors and batch files for CRLF line endings.'
+
+inputs:
+  shell_glob:
+    description: 'Glob for shell scripts, relative to the repository root'
+    required: false
+    default: '**/*.sh'
+  batch_glob:
+    description: 'Glob for batch files, relative to the repository root'
+    required: false
+    default: '**/*.bat'
+  fail:
+    description: 'Whether a syntax error, shellcheck error or bad line ending fails the run'
+    required: false
+    default: 'true'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Check the scripts
+      shell: bash
+      run: |
+        python3 "${{ github.action_path }}/check_scripts.py" \
+          --shell-glob "${{ inputs.shell_glob }}" \
+          --batch-glob "${{ inputs.batch_glob }}" \
+          --fail "${{ inputs.fail }}"
