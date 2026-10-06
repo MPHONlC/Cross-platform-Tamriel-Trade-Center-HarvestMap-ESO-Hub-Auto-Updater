@@ -1,0 +1,60 @@
+name: "\U0001f41b Bug Report"
+description: Create a report to help improve the Tamriel Trade Center, HarvestMap, ESO-Hub, ESOUI Auto-Updater
+title: '[BUG] '
+labels:
+- bug
+assignees:
+- MPHONlC
+body:
+- type: textarea
+  id: describe
+  attributes:
+    label: Describe the bug
+    description: A clear and concise description of what the bug is.
+  validations:
+    required: true
+- type: dropdown
+  id: platform
+  attributes:
+    label: Platform
+    options:
+    - Linux
+    - macOS
+    - SteamDeck
+    - Windows
+  validations:
+    required: true
+- type: input
+  id: version
+  attributes:
+    label: Script version
+    placeholder: e.g. 2026.09.29.21.48
+  validations:
+    required: true
+- type: textarea
+  id: reproduce
+  attributes:
+    label: To Reproduce
+    description: Steps to reproduce the behavior.
+    placeholder: '1. What you were doing:
+
+      2. Action taken:
+
+      3. Error seen:'
+  validations:
+    required: true
+- type: textarea
+  id: expected
+  attributes:
+    label: Expected behavior
+    description: A clear and concise description of what you expected to happen.
+- type: textarea
+  id: evidence
+  attributes:
+    label: Screenshots/Logs
+    description: Paste the script's console output or error text, or attach a screenshot.
+- type: textarea
+  id: additional
+  attributes:
+    label: Additional context
+    description: Anything else about the setup (Steam, Proton/Wine/Lutris, install path, which add-ons are enabled).

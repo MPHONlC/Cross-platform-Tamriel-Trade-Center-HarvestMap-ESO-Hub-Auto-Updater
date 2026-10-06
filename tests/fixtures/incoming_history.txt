@@ -1,0 +1,40 @@
+HISTORY|1759238640|Cancelled|40000|8|43536|Quote "Test" Ring||@ExampleSeller|Second Example Guild||[36m|TTC|1
+HISTORY|1759126646|Purchased|800|8|150731|Dragon's Blood|@OtherBuyer|@ExampleUser|Second Example Guild|12|[32m|TTC|1
+HISTORY|1759054906|Listed|1000000|200|30357|Lockpick||@OtherBuyer|Second Example Guild|999|[97m|TTC|3
+HISTORY|1759006768|Cancelled|100|1|153778|Style Page: Glenmoril Wyrd Breeches||@ExampleSeller||Essilion|[35m|TTC|2
+HISTORY|1759128438|Sold|300|2|64520|Blueprint: Khajiit Tent, Canopy|@OtherBuyer|@ExampleUser|Second Example Guild|Essilion|[35m|TTC|3
+HISTORY|1759050522|Listed|150|1|45832|Jute||@OtherBuyer||12|[97m|TTC|1
+HISTORY|0|Listed|1001|1|150731|Dragon's Blood||@ExampleSeller|Example Traders Guild||[32m|TTC|1
+HISTORY|1759097238|Purchased|125|1|153778|Style Page: Glenmoril Wyrd Breeches|@OtherBuyer|@ExampleUser|Example Traders Guild|12|[35m|TTC|3
+HISTORY|1759183514|Listed|3003|3|153778|Style Page: Glenmoril Wyrd Breeches||@OtherBuyer||0|[35m|TTC|1
+HISTORY|1759054144|Cancelled|300|2|150731|Dragon's Blood||@ExampleSeller|Example Traders Guild|999|[32m|TTC|1
+HISTORY|1759058982|Cancelled|500|2|64716|Crafting Motif 12: Barbaric Style||@OtherBuyer|Example Traders Guild|0|[35m|TTC|1
+HISTORY|1759122620|Cancelled|800|8|150731|Dragon's Blood||@ExampleSeller|Second Example Guild||[32m|TTC|1
+HISTORY|1759205411|Listed|200|2|64716|Crafting Motif 12: Barbaric Style||@ExampleUser||12|[35m|ESO-Hub|1
+HISTORY|1759144529|Purchased|3003|3|45832|Jute|@ExampleBuyer|@OtherBuyer||Essilion|[97m|ESO-Hub|2
+HISTORY|1759159036|Cancelled|500|2|45832|Jute||@ExampleSeller|Example Traders Guild|Essilion|[97m|TTC|1
+HISTORY|1759232450|Sold|1000|8|43536|Quote "Test" Ring|@OtherBuyer|@ExampleUser|Second Example Guild|0|[36m|TTC|3
+HISTORY|1759113233|Sold|375|3|64716|Crafting Motif 12: Barbaric Style|@ExampleBuyer|@OtherBuyer||999|[35m|ESO-Hub|1
+HISTORY|0|Listed|250|2|30357|Lockpick||@ExampleSeller|Second Example Guild||[97m|TTC|1
+HISTORY|1759064626|Cancelled|1000|8|43536|Quote "Test" Ring||@OtherBuyer|Example Traders Guild|0|[36m|TTC|2
+HISTORY|1759229352|Purchased|200|2|64716|Crafting Motif 12: Barbaric Style|@ExampleSeller|@ExampleBuyer||0|[35m|TTC|1
+HISTORY|1759208380|Listed|200200|200|30357|Lockpick||@ExampleSeller|Second Example Guild|Essilion|[97m|TTC|3
+HISTORY|1759028819|Listed|500|2|43536|Quote "Test" Ring||@ExampleUser||999|[36m|ESO-Hub|1
+HISTORY|1759113777|Purchased|25000|200|43536|Quote "Test" Ring|@ExampleBuyer|@OtherBuyer|Example Traders Guild|999|[36m|ESO-Hub|1
+HISTORY|1759124028|Cancelled|300|2|43536|Quote "Test" Ring||@ExampleSeller|||[36m|TTC|1
+HISTORY|1759066819|Listed|200|2|64520|Blueprint: Khajiit Tent, Canopy||@ExampleUser|Example Traders Guild||[35m|ESO-Hub|1
+HISTORY|1759147009|Cancelled|150|1|64520|Blueprint: Khajiit Tent, Canopy||@ExampleBuyer|Second Example Guild||[35m|ESO-Hub|1
+HISTORY|1759039951|Sold|750|3|30357|Lockpick|@ExampleUser|@ExampleSeller||Essilion|[97m|ESO-Hub|2
+HISTORY|1759211826|Sold|40000|8|64520|Blueprint: Khajiit Tent, Canopy|@OtherBuyer|@ExampleUser||999|[35m|TTC|3
+HISTORY|1759010801|Purchased|250|1|64716|Crafting Motif 12: Barbaric Style|@ExampleBuyer|@OtherBuyer|Example Traders Guild|12|[35m|ESO-Hub|1
+HISTORY|0|Listed|10000|2|45832|Jute||@ExampleSeller|Second Example Guild|12|[97m|TTC|1
+HISTORY|1759190130|Purchased|999|1|43536|Quote "Test" Ring|@OtherBuyer|@ExampleUser|Example Traders Guild||[36m|TTC|3
+HISTORY|1759066865|Sold|199800|200|30357|Lockpick|@ExampleBuyer|@OtherBuyer|Example Traders Guild||[97m|ESO-Hub|2
+HISTORY|1759080540|Cancelled|2000|8|43536|Quote "Test" Ring||@ExampleSeller|Example Traders Guild|999|[36m|TTC|2
+HISTORY|1759197058|Cancelled|125|1|30357|Lockpick||@OtherBuyer||999|[97m|TTC|1
+HISTORY|0|Listed|1200|8|64520|Blueprint: Khajiit Tent, Canopy||@ExampleSeller|Example Traders Guild|0|[35m|TTC|1
+HISTORY|1759161070|Purchased|1001|1|153778|Style Page: Glenmoril Wyrd Breeches|@OtherBuyer|@ExampleUser||12|[35m|TTC|1
+HISTORY|1759015005|Cancelled|300|3|153778|Style Page: Glenmoril Wyrd Breeches||@ExampleBuyer|Second Example Guild|12|[35m|ESO-Hub|1
+HISTORY|1759004280|Listed|1000000|200|43536|Quote "Test" Ring||@ExampleSeller|Example Traders Guild|0|[36m|TTC|1
+HISTORY|1759207982|Sold|7992|8|43536|Quote "Test" Ring|@OtherBuyer|@ExampleUser|Example Traders Guild|999|[36m|TTC|2
+HISTORY|1759290000|Sold|500|5|64520|Blueprint: Khajiit Tent, Canopy|@NewBuyer|@ExampleSeller|Example Traders Guild|12|[35m|TTC

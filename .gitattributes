@@ -1,0 +1,7 @@
+*.bat -text
+*.sh text eol=lf
+*.ps1 text eol=lf
+Makefile text eol=lf
+VERSION text eol=lf
+tests/fixtures/** -text
+*.ico binary

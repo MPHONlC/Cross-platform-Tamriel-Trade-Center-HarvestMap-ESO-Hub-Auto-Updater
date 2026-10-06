@@ -1,0 +1,54 @@
+name: Test Platform Label
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: issue-labels-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  label:
+    if: contains(github.event.issue.labels.*.name, 'testing') || contains(github.event.issue.labels.*.name, 'bug')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Add the label for the chosen platform
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BODY: ${{ github.event.issue.body }}
+          NUMBER: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+          LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
+          IS_TEST: ${{ contains(github.event.issue.labels.*.name, 'testing') }}
+        run: |
+          api() {
+            for try in 1 2 3 4; do
+              if gh api "$@" > /dev/null 2> /tmp/err; then return 0; fi
+              sleep $((try * 5))
+            done
+            echo "::warning title=Label update failed::$(tr '\n' ' ' < /tmp/err)"
+            return 0
+          }
+          has() { printf ',%s,' "$LABELS" | grep -qF ",$1,"; }
+          enc() { jq -rn --arg v "$1" '$v|@uri'; }
+          drop() { if has "$1"; then api -X DELETE "repos/$REPO/issues/$NUMBER/labels/$(enc "$1")"; fi; }
+          add() { if ! has "$1"; then api -X POST "repos/$REPO/issues/$NUMBER/labels" -f "labels[]=$1"; fi; }
+          if [ "$IS_TEST" = "true" ]; then KIND="Test"; else KIND="Bug"; fi
+          PLATFORM=$(printf '%s\n' "$BODY" | awk '/^### Platform/{f=1;next} f&&NF{print;exit}')
+          case "$PLATFORM" in
+            "Linux") PREFIX="Linux" ;;
+            "macOS") PREFIX="macOS" ;;
+            "SteamDeck") PREFIX="SteamDeck" ;;
+            "Windows") PREFIX="Windows" ;;
+            *) echo "No platform label for '$PLATFORM'"; exit 0 ;;
+          esac
+          for P in "Linux" "macOS" "SteamDeck" "Windows"; do
+            if [ "$P" != "$PREFIX" ]; then drop "$P $KIND"; fi
+          done
+          add "$PREFIX $KIND"
