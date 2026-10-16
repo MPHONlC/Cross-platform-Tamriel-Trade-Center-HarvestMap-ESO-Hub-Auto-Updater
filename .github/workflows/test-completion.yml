@@ -1,0 +1,59 @@
+name: Test Completion
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: issue-labels-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  completion:
+    if: contains(github.event.issue.labels.*.name, 'testing')
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Label the test and move it to the right milestone
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BODY: ${{ github.event.issue.body }}
+          NUMBER: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+          LABELS: ${{ join(github.event.issue.labels.*.name, ',') }}
+          MILESTONE_NOW: ${{ github.event.issue.milestone.title }}
+        run: |
+          api() {
+            for try in 1 2 3 4; do
+              if gh api "$@" > /dev/null 2> /tmp/err; then return 0; fi
+              sleep $((try * 5))
+            done
+            echo "::warning title=Label update failed::$(tr '\n' ' ' < /tmp/err)"
+            return 0
+          }
+          has() { printf ',%s,' "$LABELS" | grep -qF ",$1,"; }
+          enc() { jq -rn --arg v "$1" '$v|@uri'; }
+          drop() { if has "$1"; then api -X DELETE "repos/$REPO/issues/$NUMBER/labels/$(enc "$1")"; fi; }
+          add() { if ! has "$1"; then api -X POST "repos/$REPO/issues/$NUMBER/labels" -f "labels[]=$1"; fi; }
+          CHECKED=$(printf '%s\n' "$BODY" | grep -cE '^\s*- \[[xX]\]' || true)
+          UNCHECKED=$(printf '%s\n' "$BODY" | grep -cE '^\s*- \[ \]' || true)
+          if [ "$CHECKED" -gt 0 ] && [ "$UNCHECKED" -eq 0 ]; then
+            LABEL="COMPLETED TEST"; OTHER="INCOMPLETE TEST"; MILESTONE="Completed"
+          else
+            LABEL="INCOMPLETE TEST"; OTHER="COMPLETED TEST"; MILESTONE="Backlog"
+          fi
+          echo "Checked: $CHECKED, unchecked: $UNCHECKED -> $LABEL"
+          drop "$OTHER"
+          add "$LABEL"
+          if [ "$MILESTONE_NOW" != "$MILESTONE" ]; then
+            MS=$(gh api "repos/$REPO/milestones?state=all" --jq ".[] | select(.title == \"$MILESTONE\") | .number" 2> /dev/null || true)
+            if [ -n "$MS" ]; then
+              api -X PATCH "repos/$REPO/issues/$NUMBER" -F "milestone=$MS"
+            else
+              echo "::warning title=No milestone::No milestone named $MILESTONE in $REPO."
+            fi
+          fi
