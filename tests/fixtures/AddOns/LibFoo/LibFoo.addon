@@ -1,0 +1,6 @@
+## Title: LibFoo
+## APIVersion: 101050
+## Version: 0.9
+## AddOnVersion: 9
+## IsLibrary: true
+LibFoo.lua

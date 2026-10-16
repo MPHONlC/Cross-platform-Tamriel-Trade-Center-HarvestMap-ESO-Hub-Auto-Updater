@@ -1,0 +1,54 @@
+name: 'Credit Tester'
+description: "Adds a GitHub user to the Testers & Suggestions list in README.md, README_BBCODE.txt and README_COMMONMARK.txt, if not already credited."
+
+inputs:
+  username:
+    description: 'GitHub login of the tester to credit'
+    required: true
+  git_name:
+    description: 'Git user.name for the credit commit'
+    required: false
+    default: 'MPHONlC'
+  git_email:
+    description: 'Git user.email for the credit commit'
+    required: false
+    default: '207844175+MPHONlC@users.noreply.github.com'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Credit the tester and push
+      shell: bash
+      run: |
+        files=()
+        for f in README.md README_BBCODE.txt README_COMMONMARK.txt; do
+          [ -f "$f" ] && files+=("$f")
+        done
+        if [ "${#files[@]}" -eq 0 ]; then
+          echo "No README files to credit in."
+          exit 0
+        fi
+        branch="$(git rev-parse --abbrev-ref HEAD)"
+        git config user.name "${{ inputs.git_name }}"
+        git config user.email "${{ inputs.git_email }}"
+        for attempt in 1 2 3 4 5; do
+          git fetch -q origin "$branch"
+          git reset -q --hard "origin/$branch"
+          for f in "${files[@]}"; do
+            python3 "${{ github.action_path }}/credit_tester.py" "$f" "${{ inputs.username }}"
+          done
+          if git diff --quiet -- "${files[@]}"; then
+            echo "@${{ inputs.username }} already credited"
+            echo "### @${{ inputs.username }} already credited" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git add "${files[@]}"
+          git commit -q -m "Credit @${{ inputs.username }} for testing"
+          if git push -q origin "HEAD:$branch"; then
+            echo "### Credited @${{ inputs.username }}" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          echo "Push rejected (another run pushed first), retrying with the latest $branch ($attempt/5)"
+          sleep $((attempt * 3))
+        done
+        echo "::warning title=Credit Tester::Could not push the credit for @${{ inputs.username }} after 5 tries; close the issue again to retry."
