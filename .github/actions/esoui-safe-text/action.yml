@@ -1,0 +1,22 @@
+name: "MPHONlC's ESOUI Safe Text"
+description: 'Writes upload copies: ESOUI gets Latin-1 with &#N; codes for other symbols, like a browser; Bethesda gets UTF-8 under 10000.'
+
+inputs:
+  files:
+    description: 'Space-separated files to convert'
+    required: true
+  out_dir:
+    description: 'Folder the converted copies are written to'
+    required: false
+    default: 'esoui-upload-text'
+  target:
+    description: 'esoui (Latin-1, the encoding ESOUI reads) or bethesda (UTF-8, 10000-character limit)'
+    required: false
+    default: 'esoui'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Write ESOUI-safe copies
+      shell: bash
+      run: python3 "${{ github.action_path }}/esoui_safe_text.py" --out-dir "${{ inputs.out_dir }}" --target "${{ inputs.target }}" ${{ inputs.files }}

@@ -1,0 +1,56 @@
+name: Broken Link Check
+
+on:
+  push:
+    branches: [main, dev]
+    paths:
+      - 'README.md'
+      - 'README_BBCODE.txt'
+      - 'CHANGELOG_GFM.txt'
+  schedule:
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      fix:
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: ./.github/actions/git-commit-signing
+        with:
+          ssh_signing_key: ${{ secrets.SSH_SIGNING_KEY }}
+
+      - name: Check for broken links
+        uses: ./.github/actions/broken-link-check
+        with:
+          files: 'README.md README_BBCODE.txt CHANGELOG_GFM.txt'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          fix: ${{ inputs.fix }}
+          fail: ${{ inputs.fix != true }}
+
+      - name: Commit the corrected links, if anything changed
+        if: inputs.fix == true
+        run: |
+          git config user.name "MPHONlC"
+          git config user.email "207844175+MPHONlC@users.noreply.github.com"
+          git add README.md README_BBCODE.txt CHANGELOG_GFM.txt
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: point redirected links at their final address [skip ci]"
+            git pull --rebase --autostash origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME" || echo "::warning::Could not push the link fixes; the next run redoes them."
+          fi

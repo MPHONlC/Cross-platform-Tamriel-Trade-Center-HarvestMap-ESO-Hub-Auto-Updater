@@ -1,0 +1,89 @@
+name: GitHub Auto Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry Run (creates a draft GitHub release, publishes nothing)"
+        type: boolean
+        default: true
+      release_github:
+        description: "Release to GitHub"
+        type: boolean
+        default: false
+      force:
+        description: "Release even if VERSION has not changed since the last release"
+        type: boolean
+        default: false
+
+env:
+  AUTO_RELEASE_ENABLED: 'false'
+  AUTO_RELEASE_DRY_RUN: 'true'
+
+permissions:
+  contents: read
+
+jobs:
+  switch:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.decide.outputs.run }}
+      dry: ${{ steps.decide.outputs.dry }}
+      upload: ${{ steps.decide.outputs.upload }}
+    steps:
+      - id: decide
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "dry=${{ inputs.dry_run }}" >> "$GITHUB_OUTPUT"
+            echo "upload=${{ inputs.release_github }}" >> "$GITHUB_OUTPUT"
+          elif [ "$AUTO_RELEASE_ENABLED" == "true" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "dry=$AUTO_RELEASE_DRY_RUN" >> "$GITHUB_OUTPUT"
+            echo "upload=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "dry=true" >> "$GITHUB_OUTPUT"
+            echo "upload=false" >> "$GITHUB_OUTPUT"
+            echo "::notice title=Auto Release Is Off::AUTO_RELEASE_ENABLED is 'false' at the top of this workflow, so only a manual run with its own inputs can release."
+          fi
+
+  detect:
+    needs: switch
+    if: needs.switch.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    outputs:
+      release: ${{ steps.compare.outputs.release }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - id: compare
+        run: |
+          if [ "${{ inputs.force }}" == "true" ]; then
+            echo "release=true" >> "$GITHUB_OUTPUT"
+            echo "Forced by hand."
+            exit 0
+          fi
+          NOW="Version-$(tr -d ' \r\n' < VERSION)"
+          if git tag --list | grep -qx "$NOW"; then
+            echo "release=false" >> "$GITHUB_OUTPUT"
+            echo "::notice title=Already Released::$NOW is already tagged, so nothing to publish."
+          else
+            echo "release=true" >> "$GITHUB_OUTPUT"
+            echo "$NOW has no tag yet."
+          fi
+
+  release:
+    needs: [switch, detect]
+    if: needs.switch.outputs.run == 'true' && needs.detect.outputs.release == 'true'
+    uses: ./.github/workflows/github-release.yml
+    secrets: inherit
+    permissions:
+      contents: write
+    with:
+      dry_run: ${{ needs.switch.outputs.dry == 'true' }}
+      release_github: ${{ needs.switch.outputs.upload == 'true' }}
